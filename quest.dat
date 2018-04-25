@@ -1,0 +1,19 @@
+quest{
+  solarus_version = "1.5",
+  write_dir = "zeldas-adventure",
+  title = "Zelda's Adventure",
+  short_description = "Rescue Link from Ganon in the land of Tolemac!",
+  long_description = [[
+When the legendary hero Link is unable to stop Ganon, the Prince of Darkness, from invading the land of Tolemac, it's up to Zelda, Princess of Hyrule, to assume the mantle.
+Display your compassion and wisdom as you travel across the land and restore the people's hope.
+Outwit your foes with an array of weapons and your quick wits.
+Solve puzzles and find all the secrets that Tolemac has to offer.]],
+  author = "CrookiNari",
+  quest_version = "v.01 started 30/03/2018",
+  release_date = "",
+  website = "",
+  normal_quest_size = "320x240",
+  min_quest_size = "320x240",
+  max_quest_size = "320x240",
+}
+

@@ -1,0 +1,186 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "cave",
+  music = "light_world_dungeon",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "floor_low.14",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "floor_low.14",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 128,
+  width = 128,
+  height = 112,
+  pattern = "floor.14",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 128,
+  width = 8,
+  height = 112,
+  pattern = "door_cache_low.3",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 24,
+  height = 224,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 16,
+  width = 8,
+  height = 224,
+  pattern = "wall_border.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 96,
+  width = 8,
+  height = 144,
+  pattern = "wall_border.4",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 128,
+  width = 24,
+  height = 112,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 0,
+  width = 304,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 24,
+  width = 288,
+  height = 8,
+  pattern = "wall_border.1",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 96,
+  width = 160,
+  height = 8,
+  pattern = "wall_border.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "wall_border.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 104,
+  width = 144,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 128,
+  width = 128,
+  height = 8,
+  pattern = "door_cache_low.1",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 104,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+teletransporter{
+  layer = 0,
+  x = 32,
+  y = 240,
+  width = 128,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "01. Shrine of Earth/cd05",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 32,
+  width = 16,
+  height = 64,
+  transition = "scrolling",
+  destination_map = "01. Shrine of Earth/ce04",
+  destination = "_side",
+}
+

@@ -1,0 +1,252 @@
+dialog{
+  id = "_crystal",
+  skip = "all",
+  text = [[
+It's a crystal switch.
+Try to hit it with something...
+]]
+}
+
+dialog{
+  id = "_shop.amount_full",
+  text = [[
+You can't carry any more!
+]]
+}
+
+dialog{
+  id = "_shop.not_enough_money",
+  text = [[
+Sorry, you don't have enough Rupees!
+]]
+}
+
+dialog{
+  id = "_shop.question",
+  text = [[
+Price: $v Rupees.
+        $? Buy
+        $? Don't Buy
+]]
+}
+
+dialog{
+  id = "_treasure.big key.1",
+  text = [[
+You found the Big Key!
+It can open the door to the boss.
+]]
+}
+
+dialog{
+  id = "_treasure.boomerang.1",
+  text = [[
+You found the Boomerang!
+Throw it at enemies to stun them.
+]]
+}
+
+dialog{
+  id = "_treasure.compass.1",
+  text = [[
+You found the Compass!
+Now you can see where this dungeon's boss lies.
+]]
+}
+
+dialog{
+  id = "_treasure.map.1",
+  text = [[
+You found the Map!
+Now you can see the layout of the dungeon.
+]]
+}
+
+dialog{
+  id = "_treasure.shield.1",
+  text = [[
+You found the Shield!
+It's a bit small...
+You can defend yourself from enemy
+projectiles!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.2",
+  text = [[
+You found the Fire Shield!
+You are now protected from fire
+attacks!
+]]
+}
+
+dialog{
+  id = "_treasure.shield.3",
+  text = [[
+You found the Mirror Shield!
+You can now reflect lasers!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.1",
+  text = [[
+You found the Knave's Sword!
+It's a bit small...
+Use it to vanquish your enemies!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.2",
+  text = [[
+You found the Hylian Blade!
+This new sword is twice as
+powerful as your old one!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.3",
+  text = [[
+You found the Hero's Sword!
+This new blade is twice as
+powerful as your old one!
+]]
+}
+
+dialog{
+  id = "_treasure.sword.4",
+  text = [[
+You found the Master Sword!
+The power of this ultimate sword is
+beyond anything you have ever seen!
+]]
+}
+
+dialog{
+  id = "cannot_lift_should_cut",
+  text = [[
+You will need something sharp to cut
+through these bushes.
+]]
+}
+
+dialog{
+  id = "cannot_lift_still_too_heavy",
+  skip = "all",
+  text = [[
+It's still too heavy for you!
+]]
+}
+
+dialog{
+  id = "cannot_lift_too_heavy",
+  text = [[
+Darn it, this is way too heavy!
+You'll never manage with your bare hands!
+]]
+}
+
+dialog{
+  id = "hungrylady.child",
+  text = [[
+Wahhh... I'm hungry, Mama!
+]]
+}
+
+dialog{
+  id = "hungrylady.dialog1",
+  text = [[
+Princess! We were exiled from our village in the
+north and have no food or shelter!
+Can you please spare a few Rupees for a meal?
+
+$?Yes
+$?No
+]]
+}
+
+dialog{
+  id = "hungrylady.no",
+  text = [[
+Ohhh... They said you were compassionate...
+I don't know what we'll do now...
+]]
+}
+
+dialog{
+  id = "hungrylady.yes",
+  text = [[
+Oh thank you, Princess! We have only this,
+which is of no use to us.
+Please take it with you on your quest.
+]]
+}
+
+dialog{
+  id = "intro_text",
+  text = [[
+]]
+}
+
+dialog{
+  id = "moblin inn",
+  text = [[
+North-east to Moblin Inn
+]]
+}
+
+dialog{
+  id = "pause.save_question",
+  text = [[
+Do you want to save the game?
+ $?Yes
+ $?No
+]]
+}
+
+dialog{
+  id = "plain of andor",
+  text = [[
+Plain of Andor
+Vegetation is sparse. Be sure to
+keep plenty of water with you.
+]]
+}
+
+dialog{
+  id = "river source",
+  text = [[
+Welcome to the river source!
+Please take some fresh water
+with you.
+- River Lover's Society
+]]
+}
+
+dialog{
+  id = "sample_text",
+  text = [[
+Oh, hello Princess! Didn't see you there!
+Are you having a nice day?
+  $?Yes
+  $?No
+]]
+}
+
+dialog{
+  id = "sample_text2",
+  text = [[
+That's good!
+]]
+}
+
+dialog{
+  id = "sample_text3",
+  text = [[
+Oh, pity.
+]]
+}
+
