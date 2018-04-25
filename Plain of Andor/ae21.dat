@@ -1,0 +1,224 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "sand.cliff.top.border.4",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 0,
+  width = 80,
+  height = 16,
+  pattern = "water_shallow.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 96,
+  height = 16,
+  pattern = "water_shallow.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 16,
+  width = 80,
+  height = 16,
+  pattern = "water_shallow.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 16,
+  width = 96,
+  height = 16,
+  pattern = "water_shallow.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 32,
+  width = 80,
+  height = 16,
+  pattern = "water_shallow.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 0,
+  width = 8,
+  height = 24,
+  pattern = "water_shallow.to_dirt.3",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "water_shallow.to_dirt.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 32,
+  width = 64,
+  height = 8,
+  pattern = "water_shallow.to_dirt.2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "water_shallow.to_dirt.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "water_shallow.to_dirt.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "water_shallow.to_dirt.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 48,
+  width = 64,
+  height = 8,
+  pattern = "water_shallow.to_dirt.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 0,
+  width = 112,
+  height = 16,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "water_shallow.to_water.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 8,
+  width = 96,
+  height = 8,
+  pattern = "water_shallow.to_water.1",
+}
+
+teletransporter{
+  layer = 0,
+  x = 48,
+  y = -16,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/ae20",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 48,
+  y = 240,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/ae22",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/af21",
+  destination = "_side",
+}
+

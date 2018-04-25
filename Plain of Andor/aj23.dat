@@ -1,0 +1,98 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 240,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "dirt.soil.3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "sand.cliff.top.border.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "dirt.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "cliff.top.4",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/ai23",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/aj22",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 240,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/aj24",
+  destination = "_side",
+}
+
