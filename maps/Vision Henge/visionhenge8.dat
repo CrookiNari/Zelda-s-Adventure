@@ -1,0 +1,217 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 128,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 96,
+  width = 16,
+  height = 56,
+  pattern = "castle.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 104,
+  width = 16,
+  height = 48,
+  pattern = "castle.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 104,
+  width = 16,
+  height = 48,
+  pattern = "castle.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "castle.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 96,
+  width = 16,
+  height = 8,
+  pattern = "castle.corner_reverse.3",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 320,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Vision Henge/visionhenge5",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "Vision Henge/visionhenge7",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "Vision Henge/visionhenge9",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 240,
+  width = 320,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Forest of Ogbam/ag25",
+  destination = "_side",
+}
+
