@@ -20,6 +20,16 @@ map{ id = "01. Shrine of Earth/cg01", description = "01. Shrine of Earth/cg01" }
 map{ id = "01. Shrine of Earth/cg02", description = "01. Shrine of Earth/cg02" }
 map{ id = "01. Shrine of Earth/cg03", description = "01. Shrine of Earth/cg03" }
 map{ id = "01. Shrine of Earth/cg07", description = "01. Shrine of Earth/cg07" }
+map{ id = "Forest of Ogbam/af25", description = "af25" }
+map{ id = "Forest of Ogbam/af26", description = "af26" }
+map{ id = "Forest of Ogbam/ag25", description = "ag25" }
+map{ id = "Forest of Ogbam/ag26", description = "ag26" }
+map{ id = "Forest of Ogbam/ah25", description = "ah25" }
+map{ id = "Forest of Ogbam/ah26", description = "ah26" }
+map{ id = "Forest of Ogbam/ai25", description = "ai25" }
+map{ id = "Forest of Ogbam/ai26", description = "ai26" }
+map{ id = "Forest of Ogbam/aj25", description = "aj25" }
+map{ id = "Forest of Ogbam/aj26", description = "aj26" }
 map{ id = "Plain of Andor/ad24", description = "Plain of Andor/ad24" }
 map{ id = "Plain of Andor/ae20", description = "Plain of Andor/ae20" }
 map{ id = "Plain of Andor/ae21", description = "Plain of Andor/ae21" }
@@ -53,7 +63,6 @@ map{ id = "Vision Henge/visionhenge8", description = "Vision Henge bottom centre
 map{ id = "Vision Henge/visionhenge9", description = "Vision Henge bottom east" }
 map{ id = "indoors/Moblin Inn", description = "Moblin Inn" }
 
-tileset{ id = "Full Hyrule.tiles", description = "Full Hyrule.tiles" }
 tileset{ id = "cave", description = "Cave" }
 tileset{ id = "dungeon_blue", description = "Dungeon (blue)" }
 tileset{ id = "dungeon_grayblue", description = "Dungeon (gray-blue)" }
@@ -91,6 +100,7 @@ sprite{ id = "entities/door_weak_block", description = "Door (weak block)" }
 sprite{ id = "entities/door_weak_wall", description = "Door (weak wall)" }
 sprite{ id = "entities/explosion", description = "Explosion" }
 sprite{ id = "entities/fire", description = "Fire" }
+sprite{ id = "entities/ganontransporter", description = "Ganon transporter" }
 sprite{ id = "entities/grass", description = "Grass" }
 sprite{ id = "entities/hookshot", description = "Hookshot" }
 sprite{ id = "entities/items", description = "Items" }
@@ -121,6 +131,7 @@ sprite{ id = "hero/sword_stars1", description = "Hero sword stars 1" }
 sprite{ id = "hero/sword_stars2", description = "Hero sword stars 2" }
 sprite{ id = "hero/trail", description = "Hero trail" }
 sprite{ id = "hero/tunic1", description = "Hero tunic 1" }
+sprite{ id = "hero/waving", description = "waving" }
 sprite{ id = "hud/gameover_fade", description = "HUD: Game-over fade" }
 sprite{ id = "hud/piece_of_heart_icon", description = "Piece of Heart icon" }
 sprite{ id = "menus/hero_head", description = "Menu: hero head" }
@@ -138,11 +149,13 @@ sprite{ id = "npc/drunk_man", description = "Drunk man" }
 sprite{ id = "npc/fat_fairy", description = "Fat fairy" }
 sprite{ id = "npc/flute_boy", description = "Flute boy" }
 sprite{ id = "npc/frog", description = "Frog" }
+sprite{ id = "npc/gaspra", description = "Gaspra" }
 sprite{ id = "npc/ghostly_proprietor", description = "Ghostly Proprietor" }
 sprite{ id = "npc/grandson", description = "Grandson" }
 sprite{ id = "npc/great_fairy", description = "Great Fairy" }
 sprite{ id = "npc/lady_blue", description = "Blue lady" }
 sprite{ id = "npc/lady_red", description = "Red lady" }
+sprite{ id = "npc/link", description = "link" }
 sprite{ id = "npc/little_elephant", description = "Little elephant" }
 sprite{ id = "npc/little_tree", description = "Little tree" }
 sprite{ id = "npc/lost_old_man", description = "Lost old man" }
@@ -160,6 +173,7 @@ sprite{ id = "npc/old_man", description = "Old man" }
 sprite{ id = "npc/pink_ball", description = "Pink ball" }
 sprite{ id = "npc/priest", description = "Priest" }
 sprite{ id = "npc/running_man", description = "Running man" }
+sprite{ id = "npc/shurmak", description = "Shurmak" }
 sprite{ id = "npc/soldier_blue", description = "Blue soldier" }
 sprite{ id = "npc/thief_green", description = "Green thief" }
 sprite{ id = "npc/thief_red", description = "Red thief" }
@@ -174,6 +188,7 @@ sprite{ id = "npc/woman_green", description = "Green woman" }
 sprite{ id = "npc/woman_yellow", description = "Yellow woman" }
 sprite{ id = "npc/young_girl_red", description = "Red young girl" }
 sprite{ id = "npc/zelda", description = "Zelda" }
+sprite{ id = "npc/zelda cutscene", description = "Zelda in cutscenes" }
 
 music{ id = "agahnim", description = "Agahnim theme" }
 music{ id = "beginning", description = "Beginning" }
@@ -334,6 +349,7 @@ item{ id = "red_potion", description = "red_potion" }
 item{ id = "rupee", description = "Rupee" }
 item{ id = "rupee_bag", description = "rupee_bag" }
 item{ id = "shield", description = "Shield" }
+item{ id = "shield2", description = "shield2" }
 item{ id = "small_key", description = "small_key" }
 item{ id = "sword", description = "Sword" }
 item{ id = "tunic", description = "tunic" }
