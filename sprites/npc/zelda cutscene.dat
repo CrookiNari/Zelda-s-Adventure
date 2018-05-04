@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "npc/stopped.tunic.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 8 },
+    { x = 24, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 8 },
+    { x = 72, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 8 },
+    { x = 96, y = 0, frame_width = 24, frame_height = 32, origin_x = 8, origin_y = 8 },
+  },
+}
