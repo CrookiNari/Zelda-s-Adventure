@@ -438,7 +438,7 @@ teletransporter{
   y = 240,
   width = 16,
   height = 16,
-  destination_map = "01. Shrine of Earth/ca07",
+  destination_map = "Forest of Ogbam/ag32",
 }
 
 destination{

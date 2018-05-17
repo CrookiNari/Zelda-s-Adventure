@@ -404,7 +404,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 85,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -412,7 +412,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 125,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -420,7 +420,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 165,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -428,7 +428,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 205,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -436,7 +436,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 245,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -444,7 +444,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 285,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -452,7 +452,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 325,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -460,7 +460,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 365,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -468,7 +468,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 405,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
@@ -476,7 +476,7 @@ destructible{
   layer = 0,
   x = 280,
   y = 445,
-  treasure_name = "heart",
+  treasure_name = "random",
   sprite = "entities/vase_skull",
 }
 
