@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "npc/nice warbane.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 23, frame_height = 26, origin_x = 8, origin_y = 8, num_frames = 2 },
+    { x = 0, y = 26, frame_width = 23, frame_height = 26, origin_x = 8, origin_y = 8, num_frames = 2 },
+    { x = 0, y = 52, frame_width = 17, frame_height = 26, origin_x = 8, origin_y = 8, num_frames = 2 },
+    { x = 0, y = 78, frame_width = 17, frame_height = 26, origin_x = 8, origin_y = 8, num_frames = 2 },
+  },
+}
