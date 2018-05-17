@@ -215,3 +215,12 @@ teletransporter{
   destination = "_side",
 }
 
+enemy{
+  layer = 0,
+  x = 64,
+  y = 53,
+  direction = 0,
+  breed = "chasupa",
+  treasure_name = "random",
+}
+

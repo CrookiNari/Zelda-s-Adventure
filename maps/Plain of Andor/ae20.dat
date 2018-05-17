@@ -1415,14 +1415,6 @@ teletransporter{
   destination = "_side",
 }
 
-destructible{
-  layer = 0,
-  x = 80,
-  y = 189,
-  sprite = "entities/sign",
-  destruction_sound = "stone",
-}
-
 teletransporter{
   layer = 0,
   x = 320,
@@ -1432,6 +1424,16 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Plain of Andor/af20",
   destination = "_side",
+}
+
+npc{
+  layer = 0,
+  x = 80,
+  y = 189,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#sign.river source",
 }
 
 tile{

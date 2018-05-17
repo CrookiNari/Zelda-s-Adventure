@@ -1,4 +1,4 @@
--- Lua script of map Vision Henge/visionhenge5.
+-- Lua script of map Plain of Andor/aj22.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -15,15 +15,25 @@ function map:on_started()
 end
   -- You can initialize the movement and sprites of various
   -- map entities here.
-function lady:on_interaction()
+function hungrylady:on_interaction()
 
-game:start_dialog ("sample_text", function(answer)
-  if answer == 3 then -- Yes.
-  game:start_dialog("sample_text2")
+game:start_dialog("hungrylady.dialog1", function(answer)
+  if answer == 2 then -- No.
+  game:start_dialog("hungrylady.no")
   else 
-  game:start_dialog("sample_text3")
-end
+  game:start_dialog("hungrylady.yes")
+  end
 end)
+
+function hungrygirl:on_interaction()
+
+game:start_dialog("hungrylady.child")
+end
+
+function hungryboy:on_interaction()
+
+game:start_dialog("hungrylady.child")
+end
 
 end
 

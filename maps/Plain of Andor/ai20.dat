@@ -549,14 +549,6 @@ tile{
   pattern = "sand.under_stone",
 }
 
-destructible{
-  layer = 0,
-  x = 216,
-  y = 69,
-  sprite = "entities/sign",
-  destruction_sound = "stone",
-}
-
 teletransporter{
   layer = 0,
   x = -16,
@@ -594,6 +586,7 @@ destructible{
   layer = 0,
   x = 264,
   y = 189,
+  treasure_name = "random",
   sprite = "entities/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -603,6 +596,7 @@ destructible{
   layer = 0,
   x = 264,
   y = 205,
+  treasure_name = "random",
   sprite = "entities/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -612,6 +606,7 @@ destructible{
   layer = 0,
   x = 264,
   y = 221,
+  treasure_name = "random",
   sprite = "entities/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
@@ -621,6 +616,7 @@ destructible{
   layer = 0,
   x = 88,
   y = 133,
+  treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
 }
@@ -629,8 +625,19 @@ destructible{
   layer = 0,
   x = 128,
   y = 157,
+  treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
+}
+
+npc{
+  layer = 0,
+  x = 216,
+  y = 69,
+  direction = 3,
+  subtype = 0,
+  sprite = "entities/sign",
+  behavior = "dialog#sign.plain of andor",
 }
 
 tile{

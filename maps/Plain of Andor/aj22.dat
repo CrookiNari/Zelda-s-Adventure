@@ -1,0 +1,745 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 144,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "house.entrance",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 144,
+  width = 24,
+  height = 16,
+  pattern = "house.wall.window",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "house.wall.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 160,
+  width = 8,
+  height = 48,
+  pattern = "grass.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 160,
+  width = 8,
+  height = 48,
+  pattern = "grass.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "dirt.barrier.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 160,
+  width = 16,
+  height = 48,
+  pattern = "ruins.slab.2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 160,
+  width = 16,
+  height = 48,
+  pattern = "ruins.slab.3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 160,
+  width = 16,
+  height = 48,
+  pattern = "ruins.slab.3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.3",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 144,
+  width = 8,
+  height = 16,
+  pattern = "house.entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 160,
+  width = 32,
+  height = 8,
+  pattern = "house.entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 160,
+  width = 16,
+  height = 48,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 160,
+  width = 16,
+  height = 48,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 32,
+  height = 240,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "dirt.soil.3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "sand.cliff.top.border.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "dirt.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 272,
+  height = 24,
+  pattern = "water_shallow",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 272,
+  height = 8,
+  pattern = "water",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 272,
+  height = 8,
+  pattern = "water_shallow.to_water.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "water.cliff_wave.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 32,
+  width = 272,
+  height = 8,
+  pattern = "water_shallow.to_dirt.2",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "water.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "water.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "water.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "water.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "water.wave_big",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "water.wave_small",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "water.wave_small",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "water.wave_small",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "water.wave_small",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 16,
+  width = 272,
+  height = 16,
+  pattern = "water_shallow.wave_big",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/ai22",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = -16,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/aj21",
+  destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 173,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 189,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 205,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 173,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 189,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 205,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+npc{
+  name = "hungryboy",
+  layer = 0,
+  x = 128,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/grandson",
+}
+
+npc{
+  name = "hungrygirl",
+  layer = 0,
+  x = 112,
+  y = 141,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/young_girl_red",
+}
+
+npc{
+  name = "hungrylady",
+  layer = 0,
+  x = 120,
+  y = 149,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/lady_blue",
+}
+
+teletransporter{
+  layer = 0,
+  x = 0,
+  y = 240,
+  width = 272,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Plain of Andor/aj23",
+  destination = "_side",
+}
+
+destination{
+  name = "starting_destination",
+  layer = 0,
+  x = 48,
+  y = 141,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = 184,
+  y = 144,
+  width = 16,
+  height = 16,
+  destination_map = "indoors/Moblin Inn",
+  destination = "starting_destination",
+}
+
+destination{
+  name = "exit",
+  layer = 0,
+  x = 192,
+  y = 173,
+  direction = 3,
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 112,
+  width = 48,
+  height = 8,
+  pattern = "house.roof_red.top.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 64,
+  width = 8,
+  height = 48,
+  pattern = "house.roof_red.top.4",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 64,
+  width = 8,
+  height = 56,
+  pattern = "house.roof_red.4",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_red.top.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 56,
+  width = 24,
+  height = 8,
+  pattern = "house.roof_red.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 64,
+  width = 48,
+  height = 48,
+  pattern = "house.roof_red.top",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 56,
+  width = 48,
+  height = 8,
+  pattern = "house.roof_red.1",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 64,
+  width = 8,
+  height = 48,
+  pattern = "house.roof_red.top.3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 64,
+  width = 8,
+  height = 56,
+  pattern = "house.roof_red.3",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "house.roof_red.top.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 56,
+  width = 24,
+  height = 8,
+  pattern = "house.roof_red.corner.1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 64,
+  width = 8,
+  height = 56,
+  pattern = "house.roof_red",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 64,
+  width = 8,
+  height = 56,
+  pattern = "house.roof_red",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 120,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.3",
+}
+
+tile{
+  layer = 1,
+  x = 232,
+  y = 120,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 224,
+  y = 112,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.4b",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 112,
+  width = 8,
+  height = 24,
+  pattern = "house.roof_red.corner.3b",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 136,
+  width = 80,
+  height = 8,
+  pattern = "house.roof_red.2",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 120,
+  width = 64,
+  height = 16,
+  pattern = "house.roof_red",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 128,
+  width = 32,
+  height = 16,
+  pattern = "house.entrance.top",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 112,
+  width = 32,
+  height = 16,
+  pattern = "house.entrance.top.text",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 64,
+  width = 16,
+  height = 24,
+  pattern = "house.roof.chimney",
+}
+
