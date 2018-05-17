@@ -1,0 +1,1780 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 320,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "lost_woods",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 320,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 208,
+  width = 16,
+  height = 112,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 0,
+  width = 16,
+  height = 272,
+  pattern = "dirt.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 48,
+  height = 320,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 8,
+  height = 272,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 304,
+  width = 272,
+  height = 8,
+  pattern = "grass.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 312,
+  width = 272,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 280,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 296,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 280,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 296,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 280,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 296,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 280,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 296,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 272,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 160,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots_forest.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 152,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots_forest.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "grass.tree.roots_forest.3",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "grass.tree.roots_forest.4",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 0,
+  width = 16,
+  height = 16,
+  pattern = "cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 48,
+  width = 48,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 32,
+  width = 48,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 64,
+  height = 32,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 24,
+  width = 48,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 16,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 0,
+  width = 8,
+  height = 16,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "cave_entrance_blast.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "cave_entrance_blast.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "grass.cave_entrance_blast.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "grass.cave_entrance_blast",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "grass.cave_entrance_blast.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "cave_entrance_blast",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 16,
+  width = 8,
+  height = 8,
+  pattern = "dirt.cliff.top.border_end.1a",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 56,
+  width = 16,
+  height = 48,
+  pattern = "cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 96,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 48,
+  height = 48,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 168,
+  width = 8,
+  height = 16,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "grass.shadow.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 48,
+  height = 16,
+  pattern = "grass.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 184,
+  width = 48,
+  height = 16,
+  pattern = "cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 176,
+  width = 48,
+  height = 8,
+  pattern = "cliff.top.1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 192,
+  width = 16,
+  height = 24,
+  pattern = "grass.cave_entrance",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 192,
+  width = 8,
+  height = 24,
+  pattern = "grass.cave_entrance.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 184,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance.top",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 192,
+  width = 8,
+  height = 24,
+  pattern = "grass.cave_entrance.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "dirt.cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "dirt.cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 184,
+  width = 32,
+  height = 32,
+  pattern = "grass.tree_small.green.1",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 216,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 232,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 176,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 88,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 104,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 80,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 48,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 0,
+  width = 16,
+  height = 272,
+  pattern = "cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 176,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots_forest.2",
+}
+
+door{
+  layer = 0,
+  x = -40,
+  y = 104,
+  direction = 1,
+  sprite = "entities/door_very_weak_wall",
+  opening_method = "explosion",
+}
+
+teletransporter{
+  layer = 0,
+  x = 288,
+  y = 48,
+  width = 16,
+  height = 16,
+  destination_map = "01. Shrine of Earth/ca07",
+  destination = "shrine_earth_entrance",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 296,
+  y = 77,
+  direction = 3,
+  default = true,
+}
+
+teletransporter{
+  layer = 0,
+  x = 288,
+  y = 192,
+  width = 16,
+  height = 16,
+  destination_map = "indoors/under_ag32",
+  destination = "destination",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 296,
+  y = 221,
+  direction = 3,
+}
+
+teletransporter{
+  layer = 0,
+  x = -112,
+  y = 440,
+  width = 160,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Forest of Ogbam/ag32",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 64,
+  y = -16,
+  width = 160,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Forest of Ogbam/ag31",
+  destination = "_side",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 160,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 224,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 16,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 88,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 96,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 272,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 272,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 208,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 216,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 256,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 280,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 16,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 160,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 160,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 224,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 224,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 8,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 16,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 16,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 16,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 88,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 88,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 88,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 88,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 88,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 80,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 152,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 160,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 16,
+  y = 160,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 160,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 216,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 224,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 224,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 224,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 280,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 272,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 272,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 272,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 272,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 48,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 72,
+  y = 264,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 64,
+  y = 272,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 112,
+  width = 8,
+  height = 40,
+  pattern = "tree.red.3",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 112,
+  width = 8,
+  height = 40,
+  pattern = "tree.red.4",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 104,
+  width = 48,
+  height = 16,
+  pattern = "tree.red.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 120,
+  width = 48,
+  height = 40,
+  pattern = "tree.red.1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 160,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 168,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 176,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 176,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 32,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 40,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 40,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 48,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 48,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 40,
+  width = 32,
+  height = 8,
+  pattern = "cave_entrance_blast.top",
+}
+

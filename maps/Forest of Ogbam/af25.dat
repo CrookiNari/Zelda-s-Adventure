@@ -1,0 +1,512 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "overworld",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "sand.soil",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "dirt.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 0,
+  width = 16,
+  height = 240,
+  pattern = "cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 48,
+  height = 240,
+  pattern = "dirt.soil",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "cliff.top.3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.diag.2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.1",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "sand.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.diag.3",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.3",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "sand.cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "sand.soil.diag.1b",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "sand.soil.diag.2b",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "sand.soil.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "sand.soil.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "cliff.middle.1",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 200,
+  width = 184,
+  height = 8,
+  pattern = "grass.soil.1",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 160,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 152,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 208,
+  width = 240,
+  height = 32,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 192,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 168,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 160,
+  width = 16,
+  height = 48,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 176,
+  width = 8,
+  height = 32,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 184,
+  width = 16,
+  height = 24,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 216,
+  width = 48,
+  height = 16,
+  pattern = "grass.tree.roots.1",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 200,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.3",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 232,
+  width = 48,
+  height = 8,
+  pattern = "grass.tree.roots.2",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 208,
+  width = 8,
+  height = 16,
+  pattern = "grass.tree.roots.4",
+}
+
+destructible{
+  layer = 0,
+  x = 168,
+  y = 165,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = -16,
+  width = 240,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Vision Henge/visionhenge7",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 0,
+  width = 16,
+  height = 240,
+  transition = "scrolling",
+  destination_map = "Forest of Ogbam/ag25",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 80,
+  y = 240,
+  width = 240,
+  height = 16,
+  transition = "scrolling",
+  destination_map = "Forest of Ogbam/af26",
+  destination = "_side",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 160,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 168,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 168,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 176,
+  width = 48,
+  height = 40,
+  pattern = "tree.under",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 176,
+  width = 48,
+  height = 40,
+  pattern = "tree.green.1",
+}
+
+tile{
+  layer = 1,
+  x = 56,
+  y = 192,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.2",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 192,
+  width = 24,
+  height = 48,
+  pattern = "tree.green.half.1",
+}
+
+tile{
+  layer = 1,
+  x = 32,
+  y = 184,
+  width = 48,
+  height = 16,
+  pattern = "tree.green.2",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 192,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.3",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 192,
+  width = 8,
+  height = 40,
+  pattern = "tree.green.4",
+}
+
