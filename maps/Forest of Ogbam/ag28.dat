@@ -595,7 +595,7 @@ teletransporter{
   height = 224,
   transition = "scrolling",
   destination_map = "Forest of Ogbam/af28",
-  destination = "destination",
+  destination = "_side",
 }
 
 teletransporter{

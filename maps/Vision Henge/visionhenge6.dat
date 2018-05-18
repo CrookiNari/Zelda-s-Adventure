@@ -294,7 +294,7 @@ teletransporter{
   width = 320,
   height = 16,
   transition = "scrolling",
-  destination_map = "Vision Henge/visionhenge6",
+  destination_map = "Vision Henge/visionhenge9",
   destination = "_side",
 }
 
