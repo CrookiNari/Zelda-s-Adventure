@@ -150,6 +150,60 @@ You'll never manage with your bare hands!
 }
 
 dialog{
+  id = "findo",
+  text = [[
+Huhuhu... Moblins are so slow and stupid,
+they still try to eat soup with a fork!
+]]
+}
+
+dialog{
+  id = "forest merchant.buy something",
+  text = [[
+A fine purchase, young lady!
+I hope you will use it well.
+]]
+}
+
+dialog{
+  id = "forest merchant.regular",
+  text = [[
+Hello there, fair lady. You seem wise, so won't
+you consider taking one of my valuable wares
+with you?
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.first",
+  text = [[
+You found a piece of Heart!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.fourth",
+  text = [[
+You found a piece of Heart!
+Your Heart level increased!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.second",
+  text = [[
+You found a piece of Heart!
+]]
+}
+
+dialog{
+  id = "found_piece_of_heart.third",
+  text = [[
+You found a piece of Heart!
+]]
+}
+
+dialog{
   id = "hungrylady.child",
   text = [[
 Wahhh... I'm hungry, Mama!
@@ -192,9 +246,72 @@ dialog{
 }
 
 dialog{
-  id = "moblin inn",
+  id = "intro_text.opening_cutscene",
   text = [[
-North-east to Moblin Inn
+In a land far from the kingdom of Hyrule live
+the peaceful people of Tolemac. One day, the evil
+forces of Ganon invaded, and though the people
+resisted valiantly, it was all in vain.
+The seven celestial signs which protected the
+land were stolen, paving the way to its downfall.
+Even Link, the greatest Hyrulean warrior,
+was no match for Ganon and was captured.
+So it falls to another to take on the role of the
+brave warrior that Tolemac so desparately needs.
+I found a champion of strength and courage in the
+wise and beautiful Princess Zelda.
+Go now, aided by the Triforce of Wisdom,
+and reclaim the signs and return peace to Tolemac!
+]]
+}
+
+dialog{
+  id = "moblin_inn",
+  text = [[
+]]
+}
+
+dialog{
+  id = "moblin_inn.innkeeper",
+  text = [[
+Welcome to the Moblin's Head Inn, Princess!
+Please sit a while.
+Some very interesting folks pass through here,
+so maybe you should talk to them.
+You might learn something useful.
+]]
+}
+
+dialog{
+  id = "moblin_inn.lady",
+  text = [[
+Hello there! Why don't you sit a moment.
+They say that deep in the earth one can overcome
+the sins of greed. I don't really know what that
+means, but I do know that greedy trolls like to
+make their lairs in dark caves far to the south.
+If you're going to go anywhere dark, you'll do
+well to get yourself a lantern.
+]]
+}
+
+dialog{
+  id = "moblin_inn.patron",
+  text = [[
+You seem like the patient type. That's a
+good trait to have. Don't surrender to the
+things that seem impossible.
+]]
+}
+
+dialog{
+  id = "moblin_inn.traveler",
+  text = [[
+Oh man, I really should have made sure to bring
+a lantern. You can't see anything stumbling
+around in the dark! There was a stall in the
+southern forest selling them, but I didn't think
+I needed one so passed it by.
 ]]
 }
 
@@ -208,31 +325,12 @@ Do you want to save the game?
 }
 
 dialog{
-  id = "plain of andor",
-  text = [[
-Plain of Andor
-Vegetation is sparse. Be sure to
-keep plenty of water with you.
-]]
-}
-
-dialog{
-  id = "river source",
-  text = [[
-Welcome to the river source!
-Please take some fresh water
-with you.
-- River Lover's Society
-]]
-}
-
-dialog{
   id = "sample_text",
   text = [[
 Oh, hello Princess! Didn't see you there!
 Are you having a nice day?
-  $?Yes
-  $?No
+  $? Yes
+  $? No
 ]]
 }
 
@@ -247,6 +345,82 @@ dialog{
   id = "sample_text3",
   text = [[
 Oh, pity.
+]]
+}
+
+dialog{
+  id = "sign.findo",
+  text = [[
+East to Findo
+]]
+}
+
+dialog{
+  id = "sign.forest of ogbam",
+  text = [[
+Forest of Ogbam
+Dark caves are dangerous. Keep your
+lantern full and don't trip on
+hidden objects.
+]]
+}
+
+dialog{
+  id = "sign.moblin inn",
+  text = [[
+North-east to Moblin Inn
+]]
+}
+
+dialog{
+  id = "sign.plain of andor",
+  text = [[
+Plain of Andor
+Vegetation is sparse. Be sure to
+keep plenty of water with you.
+]]
+}
+
+dialog{
+  id = "sign.river source",
+  text = [[
+Welcome to the river source!
+Please take some fresh water
+with you.
+- River Lover's Society
+]]
+}
+
+dialog{
+  id = "thirstylady",
+  text = [[
+]]
+}
+
+dialog{
+  id = "thirstylady.1",
+  text = [[
+Ohhh, I may die of thirst... Oh? Oh!
+Princess Zelda! Please, will you take this
+bottle to the source of the river and collect
+some water for me?
+$?Yes
+$?No
+]]
+}
+
+dialog{
+  id = "thirstylady.2",
+  text = [[
+Thank you! I'll be right here waiting.
+]]
+}
+
+dialog{
+  id = "thirstylady.3",
+  text = [[
+You won't do it? Please! I can't walk that far
+in my current state!
 ]]
 }
 
