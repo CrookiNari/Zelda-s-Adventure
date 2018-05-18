@@ -72,7 +72,7 @@ teletransporter{
   width = 272,
   height = 16,
   transition = "scrolling",
-  destination_map = "ae24",
+  destination_map = "Plain of Andor/ae24",
   destination = "_side",
 }
 
