@@ -279,6 +279,78 @@ tile{
   pattern = "water_shallow.to_water.1",
 }
 
+tile{
+  layer = 0,
+  x = 0,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "sand.weed",
+}
+
 teletransporter{
   layer = 0,
   x = -16,
@@ -310,5 +382,53 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Plain of Andor/ag21",
   destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 80,
+  y = 213,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 192,
+  y = 205,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 136,
+  y = 213,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 264,
+  y = 221,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 221,
+  treasure_name = "random",
+  sprite = "entities/bush_yellow",
+  destruction_sound = "bush",
+  can_be_cut = true,
 }
 

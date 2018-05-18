@@ -640,6 +640,24 @@ npc{
   behavior = "dialog#sign.plain of andor",
 }
 
+destructible{
+  layer = 0,
+  x = 112,
+  y = 69,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 221,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
 tile{
   layer = 1,
   x = 24,
