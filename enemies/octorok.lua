@@ -9,7 +9,7 @@ local can_shoot = true
 function enemy:on_created()
 
   enemy:set_life(3)
-  enemy:set_damage(2)
+  enemy:set_damage(1)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
 
 
@@ -20,7 +20,7 @@ local function go_hero()
   local sprite = enemy:get_sprite()
   sprite:set_animation("walking")
   local movement = sol.movement.create("target")
-  movement:set_speed(64)
+  movement:set_speed(32)
   movement:start(enemy)
 end
 
@@ -49,7 +49,7 @@ local function shoot()
   sol.timer.start(enemy, 300, function()
     sol.audio.play_sound("stone")
     local stone = enemy:create_enemy({
-      breed = "alttp/octorok_stone",
+      breed = "octorok_stone",
       x = dxy[direction + 1][1],
       y = dxy[direction + 1][2],
     })
