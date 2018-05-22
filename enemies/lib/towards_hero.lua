@@ -60,7 +60,7 @@ function behavior:create(enemy, properties)
     properties.ignore_obstacles = false
   end
   if properties.detection_distance == nil then
-    properties.detection_distance = 160
+    properties.detection_distance = 80
   end
   if properties.obstacle_behavior == nil then
     properties.obstacle_behavior = "normal"
