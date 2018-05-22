@@ -351,6 +351,51 @@ tile{
   pattern = "sand.weed",
 }
 
+tile{
+  layer = 0,
+  x = 72,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 32,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
 teletransporter{
   layer = 0,
   x = -16,
@@ -430,5 +475,14 @@ destructible{
   sprite = "entities/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+enemy{
+  layer = 0,
+  x = 152,
+  y = 181,
+  direction = 1,
+  breed = "goriya_green",
+  treasure_name = "random",
 }
 

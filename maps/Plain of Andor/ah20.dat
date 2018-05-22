@@ -1287,6 +1287,87 @@ tile{
   pattern = "water_shallow.to_water.1",
 }
 
+tile{
+  layer = 0,
+  x = 40,
+  y = 176,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 248,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_bush",
+}
+
 teletransporter{
   layer = 0,
   x = -16,
@@ -1405,5 +1486,44 @@ destructible{
   sprite = "entities/bush_yellow",
   destruction_sound = "bush",
   can_be_cut = true,
+}
+
+enemy{
+  layer = 0,
+  x = 216,
+  y = 69,
+  direction = 3,
+  breed = "tektite_red",
+  treasure_name = "random",
+}
+
+destructible{
+  layer = 0,
+  x = 168,
+  y = 237,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 96,
+  y = 93,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
+}
+
+destructible{
+  layer = 0,
+  x = 40,
+  y = 149,
+  treasure_name = "random",
+  sprite = "entities/stone_black",
+  destruction_sound = "stone",
+  weight = 2,
 }
 
