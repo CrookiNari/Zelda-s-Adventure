@@ -892,3 +892,21 @@ destructible{
   weight = 2,
 }
 
+enemy{
+  layer = 0,
+  x = 136,
+  y = 133,
+  direction = 3,
+  breed = "tektite_red",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 176,
+  y = 93,
+  direction = 0,
+  breed = "octorok",
+  treasure_name = "random",
+}
+

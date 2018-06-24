@@ -658,6 +658,24 @@ destructible{
   destruction_sound = "stone",
 }
 
+enemy{
+  layer = 0,
+  x = 176,
+  y = 69,
+  direction = 0,
+  breed = "octorok",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 152,
+  y = 133,
+  direction = 3,
+  breed = "octorok",
+  treasure_name = "random",
+}
+
 tile{
   layer = 1,
   x = 24,

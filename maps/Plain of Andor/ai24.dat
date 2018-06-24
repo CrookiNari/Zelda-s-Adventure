@@ -446,3 +446,12 @@ destructible{
   destruction_sound = "stone",
 }
 
+enemy{
+  layer = 0,
+  x = 144,
+  y = 141,
+  direction = 3,
+  breed = "tektite_red",
+  treasure_name = "random",
+}
+

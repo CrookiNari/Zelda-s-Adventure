@@ -306,6 +306,51 @@ tile{
   pattern = "sand.under_bush",
 }
 
+tile{
+  layer = 0,
+  x = 168,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 144,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
 teletransporter{
   layer = 0,
   x = 0,

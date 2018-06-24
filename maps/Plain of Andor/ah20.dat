@@ -30,7 +30,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 80,
+  y = 72,
   width = 16,
   height = 16,
   pattern = "water_shallow.wave_big",
@@ -39,7 +39,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 64,
+  y = 56,
   width = 112,
   height = 32,
   pattern = "water_shallow.wave_big",
@@ -930,7 +930,7 @@ tile{
 tile{
   layer = 0,
   x = 16,
-  y = 56,
+  y = 48,
   width = 16,
   height = 8,
   pattern = "sand.weed",
@@ -939,7 +939,7 @@ tile{
 tile{
   layer = 0,
   x = 80,
-  y = 56,
+  y = 48,
   width = 16,
   height = 8,
   pattern = "sand.weed",
@@ -1200,7 +1200,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 64,
+  y = 56,
   width = 112,
   height = 8,
   pattern = "water_shallow.to_dirt.1",
@@ -1218,7 +1218,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 96,
+  y = 88,
   width = 112,
   height = 8,
   pattern = "water",
@@ -1227,7 +1227,7 @@ tile{
 tile{
   layer = 0,
   x = 0,
-  y = 88,
+  y = 80,
   width = 96,
   height = 8,
   pattern = "water_shallow.to_water.2",
@@ -1245,7 +1245,7 @@ tile{
 tile{
   layer = 0,
   x = 96,
-  y = 88,
+  y = 80,
   width = 16,
   height = 16,
   pattern = "water_shallow.to_water.diag.3",
@@ -1253,9 +1253,9 @@ tile{
 
 tile{
   layer = 0,
-  x = 104,
+  x = 0,
   y = 96,
-  width = 8,
+  width = 112,
   height = 8,
   pattern = "water",
 }
@@ -1366,6 +1366,15 @@ tile{
   width = 16,
   height = 16,
   pattern = "sand.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "water_shallow.to_dirt.diag.2",
 }
 
 teletransporter{
@@ -1510,7 +1519,7 @@ destructible{
 destructible{
   layer = 0,
   x = 96,
-  y = 93,
+  y = 85,
   treasure_name = "random",
   sprite = "entities/stone_black",
   destruction_sound = "stone",
