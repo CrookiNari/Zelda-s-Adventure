@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "cave",
-  music = "light_world_dungeon",
+  music = "dungeon_light_world",
 }
 
 tile{
@@ -272,5 +272,22 @@ teletransporter{
   transition = "scrolling",
   destination_map = "01. Shrine of Earth/ce10",
   destination = "_side",
+}
+
+enemy{
+  layer = 0,
+  x = 152,
+  y = 117,
+  direction = 3,
+  breed = "taros_green",
+  treasure_name = "small_key",
+}
+
+chest{
+  layer = 0,
+  x = 256,
+  y = 117,
+  treasure_name = "flippers",
+  sprite = "entities/chest",
 }
 

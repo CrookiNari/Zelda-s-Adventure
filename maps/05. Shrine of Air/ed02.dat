@@ -1,0 +1,60 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "palace_purple",
+  music = "dungeon_light_world",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 24,
+  width = 320,
+  height = 192,
+  pattern = "floor.19",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 320,
+  height = 24,
+  pattern = "wall.2",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 24,
+  width = 16,
+  height = 192,
+  transition = "scrolling",
+  destination_map = "05. Shrine of Air/ec02",
+  destination = "_side",
+}
+
+teletransporter{
+  layer = 0,
+  x = 320,
+  y = 24,
+  width = 16,
+  height = 192,
+  transition = "scrolling",
+  destination_map = "05. Shrine of Air/ee02",
+  destination = "_side",
+}
+

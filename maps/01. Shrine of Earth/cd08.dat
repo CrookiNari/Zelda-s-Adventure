@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "cave",
-  music = "light_world_dungeon",
+  music = "dungeon_light_world",
 }
 
 tile{
@@ -308,5 +308,41 @@ teletransporter{
   transition = "scrolling",
   destination_map = "01. Shrine of Earth/cd09",
   destination = "_side",
+}
+
+enemy{
+  layer = 0,
+  x = 56,
+  y = 125,
+  direction = 0,
+  breed = "vire",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 248,
+  y = 141,
+  direction = 0,
+  breed = "vire",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 264,
+  y = 53,
+  direction = 0,
+  breed = "keese",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 88,
+  y = 149,
+  direction = 0,
+  breed = "keese",
+  treasure_name = "random",
 }
 

@@ -1,0 +1,263 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "palace_purple",
+  music = "dungeon_light_world",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 96,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 120,
+  width = 24,
+  height = 96,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 24,
+  width = 272,
+  height = 192,
+  pattern = "floor.19",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "door.4.support.2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 120,
+  width = 16,
+  height = 16,
+  pattern = "door.4",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 112,
+  width = 8,
+  height = 32,
+  pattern = "door_top.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.1",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.3",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 0,
+  width = 272,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 216,
+  width = 96,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 208,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 208,
+  width = 24,
+  height = 32,
+  pattern = "door_main.2.pillar.2",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.2",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "door_main.2",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 224,
+  width = 8,
+  height = 16,
+  pattern = "door_main.2.support.1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 200,
+  width = 32,
+  height = 24,
+  pattern = "door_main.2.floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 192,
+  width = 8,
+  height = 16,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 192,
+  width = 8,
+  height = 16,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 192,
+  width = 32,
+  height = 8,
+  pattern = "floor_border.1",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 216,
+  width = 96,
+  height = 24,
+  pattern = "wall.2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 296,
+  y = 120,
+  width = 16,
+  height = 16,
+  destination_map = "05. Shrine of Air/eb03",
+  destination = "destination",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 288,
+  y = 133,
+  direction = 2,
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "05. Shrine of Air/ea04",
+  destination = "destination_2",
+}
+
+destination{
+  name = "destination",
+  layer = 0,
+  x = 160,
+  y = 221,
+  direction = 1,
+}
+

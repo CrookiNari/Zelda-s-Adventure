@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "cave",
-  music = "light_world_dungeon",
+  music = "dungeon_light_world",
 }
 
 tile{
@@ -224,5 +224,14 @@ chest{
   y = 125,
   treasure_name = "big key",
   sprite = "entities/chest",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 125,
+  direction = 3,
+  breed = "taros_blue",
+  treasure_name = "small_key",
 }
 

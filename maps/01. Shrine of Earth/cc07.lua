@@ -12,7 +12,16 @@ local game = map:get_game()
 
 -- Event called at initialization time, as soon as this map becomes is loaded.
 function map:on_started()
+  if game:get_value("open") then chest:set_enabled(true) else chest:set_enabled(false) end
 
+for enemy in map:get_entities("Enemy") do
+  enemy.on_dead = function()
+    if not map:has_entities("Enemy") then
+      chest:set_enabled(true)
+      sol.audio.play_sound("chest_appears")
+    end
+  end
+end
   -- You can initialize the movement and sprites of various
   -- map entities here.
 end

@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "cave",
-  music = "light_world_dungeon",
+  music = "dungeon_light_world",
 }
 
 tile{
@@ -164,5 +164,14 @@ teletransporter{
   transition = "scrolling",
   destination_map = "01. Shrine of Earth/cg03",
   destination = "_side",
+}
+
+enemy{
+  layer = 0,
+  x = 168,
+  y = 93,
+  direction = 3,
+  breed = "taros_red",
+  treasure_name = "small_key",
 }
 

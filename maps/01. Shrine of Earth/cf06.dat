@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "cave",
-  music = "light_world_dungeon",
+  music = "dungeon_light_world",
 }
 
 tile{
@@ -420,5 +420,32 @@ destructible{
   y = 141,
   treasure_name = "heart",
   sprite = "entities/vase_skull",
+}
+
+enemy{
+  layer = 0,
+  x = 200,
+  y = 77,
+  direction = 3,
+  breed = "keese",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 136,
+  y = 93,
+  direction = 3,
+  breed = "keese",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 0,
+  x = 176,
+  y = 125,
+  direction = 3,
+  breed = "keese",
+  treasure_name = "random",
 }
 

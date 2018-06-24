@@ -1,0 +1,613 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+  music = "dungeon_light_world",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 320,
+  height = 184,
+  pattern = "clouds_parallax.shadow",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 104,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 72,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 88,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 56,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 24,
+  pattern = "castle.entrance",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 32,
+  width = 8,
+  height = 24,
+  pattern = "castle.portal.border.1",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 32,
+  width = 8,
+  height = 24,
+  pattern = "castle.portal.border.2",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 0,
+  width = 32,
+  height = 56,
+  pattern = "castle.turret",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 0,
+  width = 32,
+  height = 56,
+  pattern = "castle.turret",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 40,
+  width = 48,
+  height = 16,
+  pattern = "castle.steps",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 0,
+  width = 96,
+  height = 56,
+  pattern = "castle.1",
+}
+
+tile{
+  layer = 0,
+  x = 256,
+  y = 8,
+  width = 16,
+  height = 48,
+  pattern = "peak",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "statue.3",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "statue.3.top",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 96,
+  height = 56,
+  pattern = "castle.1",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 8,
+  width = 32,
+  height = 16,
+  pattern = "statue.3.top",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "statue.3",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 8,
+  width = 16,
+  height = 48,
+  pattern = "peak",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "castle.corner_reverse.4",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 8,
+  width = 16,
+  height = 48,
+  pattern = "castle.corner_reverse.2",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 0,
+  width = 16,
+  height = 8,
+  pattern = "castle.corner_reverse.3",
+}
+
+tile{
+  layer = 0,
+  x = 304,
+  y = 8,
+  width = 16,
+  height = 48,
+  pattern = "castle.corner_reverse.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 120,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 136,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 152,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 168,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 184,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 200,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 224,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 232,
+  width = 320,
+  height = 8,
+  pattern = "clouds.1",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 224,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 192,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 144,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 128,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 96,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 64,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 64,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 80,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 112,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 176,
+  width = 320,
+  height = 8,
+  pattern = "clouds.shadow.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 192,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 176,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 160,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 144,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 128,
+  width = 320,
+  height = 8,
+  pattern = "clouds.2",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 56,
+  width = 64,
+  height = 184,
+  pattern = "castle.top.floor",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 56,
+  width = 8,
+  height = 80,
+  pattern = "castle.portal.floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 56,
+  width = 8,
+  height = 80,
+  pattern = "castle.portal.floor.3",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 136,
+  width = 8,
+  height = 104,
+  pattern = "castle.portal.floor.1",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 136,
+  width = 8,
+  height = 104,
+  pattern = "castle.portal.floor.2",
+}
+
+teletransporter{
+  layer = 0,
+  x = 152,
+  y = 16,
+  width = 16,
+  height = 16,
+  destination_map = "05. Shrine of Air/ea03",
+  destination = "destination",
+}
+
+destination{
+  name = "destination_2",
+  layer = 0,
+  x = 160,
+  y = 45,
+  direction = 3,
+}
+
+wall{
+  layer = 0,
+  x = 120,
+  y = 56,
+  width = 8,
+  height = 184,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+wall{
+  layer = 0,
+  x = 192,
+  y = 56,
+  width = 8,
+  height = 184,
+  stops_hero = true,
+  stops_npcs = true,
+  stops_enemies = true,
+  stops_blocks = true,
+  stops_projectiles = true,
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 0,
+  width = 64,
+  height = 8,
+  pattern = "castle.top.jumper",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 8,
+  width = 24,
+  height = 32,
+  pattern = "castle.entrance.border.2",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 8,
+  width = 16,
+  height = 8,
+  pattern = "castle.entrance.top",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 8,
+  width = 24,
+  height = 32,
+  pattern = "castle.entrance.border.1",
+}
+

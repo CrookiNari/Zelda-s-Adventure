@@ -6,7 +6,7 @@ properties{
   min_layer = 0,
   max_layer = 2,
   tileset = "cave",
-  music = "light_world_dungeon",
+  music = "dungeon_light_world",
 }
 
 tile{
@@ -291,5 +291,128 @@ door{
   sprite = "entities/door_big_key",
   opening_method = "interaction_if_item",
   opening_condition = "big key",
+}
+
+door{
+  layer = 0,
+  x = 168,
+  y = 112,
+  direction = 3,
+  sprite = "entities/key_block",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
+  opening_condition_consumed = true,
+}
+
+door{
+  layer = 0,
+  x = 168,
+  y = 128,
+  direction = 3,
+  sprite = "entities/key_block",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
+  opening_condition_consumed = true,
+}
+
+door{
+  layer = 0,
+  x = 168,
+  y = 144,
+  direction = 3,
+  sprite = "entities/key_block",
+  opening_method = "interaction_if_item",
+  opening_condition = "small_key",
+  opening_condition_consumed = true,
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 80,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "block",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 96,
+  width = 16,
+  height = 16,
+  pattern = "block",
 }
 
