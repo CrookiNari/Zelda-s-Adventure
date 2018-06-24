@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "npc/traveller 2.png",
+  frame_delay = 400,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "npc/traveller 2.png",
+  frame_delay = 390,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 32, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 64, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+    { x = 0, y = 96, frame_width = 24, frame_height = 26, origin_x = 8, origin_y = 24, num_frames = 2 },
+  },
+}
