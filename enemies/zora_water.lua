@@ -32,7 +32,7 @@ function enemy:on_restarted()
       sol.audio.play_sound("zora")
       sprite:set_animation("shooting")
       children[#children + 1] = enemy:create_enemy({
-        breed = "alttp/fireball_red_small",
+        breed = "fireball_red_small",
       })
     end
     return true  -- Repeat the timer.

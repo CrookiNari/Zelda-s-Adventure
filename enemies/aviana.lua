@@ -1,4 +1,6 @@
--- Helmasaur King boss.
+local enemy = ...
+
+-- A crow that sleeps until the hero gets close.
 
 local enemy = ...
 
@@ -9,8 +11,10 @@ function enemy:on_created()
   enemy:create_sprite("enemies/" .. enemy:get_breed())
   enemy:set_hurt_style("boss")
   enemy:set_pushed_back_when_hurt(false)
-  enemy:set_size(16, 16)
+  enemy:set_size(56, 56)
   enemy:set_origin(8, 13)
+
+  enemy:set_obstacle_behavior("flying")
 
 end
 
@@ -20,3 +24,4 @@ function enemy:on_restarted()
   movement:set_speed(64)
   movement:start(enemy)
 end
+

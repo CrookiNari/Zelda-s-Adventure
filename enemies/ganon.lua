@@ -1,6 +1,7 @@
--- Helmasaur King boss.
+-- Ganon: final boss.
 
 local enemy = ...
+local game = enemy:get_game()
 
 function enemy:on_created()
 
@@ -12,11 +13,10 @@ function enemy:on_created()
   enemy:set_size(16, 16)
   enemy:set_origin(8, 13)
 
-end
-
 function enemy:on_restarted()
 
-  local movement = sol.movement.create("random")
-  movement:set_speed(64)
+  local movement = sol.movement.create("target")
+  movement:set_speed(32)
   movement:start(enemy)
+end
 end

@@ -10,8 +10,6 @@ function enemy:on_created()
   enemy:set_life(3)
   enemy:set_damage(1)
   enemy:create_sprite("enemies/" .. enemy:get_breed())
-  enemy:set_invincible()
-
 
 end
 
@@ -35,7 +33,7 @@ local function shoot()
   }
 
   local beam = enemy:create_enemy({
-    breed = "alttp/wizzrobe_beam",
+    breed = "wizzrobe_beam",
     x = dxy[direction + 1][1],
     y = dxy[direction + 1][2],
   })
@@ -76,7 +74,7 @@ end
 -- Function called by the bounced beam when colliding.
 function enemy:receive_bounced_projectile(other)
 
-  if other:get_breed() ~= "alttp/wizzrobe_beam" then
+  if other:get_breed() ~= "wizzrobe_beam" then
     return
   end
 
