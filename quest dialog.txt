@@ -1,0 +1,35 @@
+local shield_search_quest_started = false
+local sword_search_quest_started = false
+local items_search_quest_started = false
+ 
+  local has_sword = game:has_item("sword")
+  if has_sword then 
+  game:set_value("sword_search_quest_started", true)
+  end
+ 
+  local has_shield = game:has_item("shield")
+  if has_shield then
+  game:set_value("shield_search_quest_started", true)
+  end
+ 
+  local has_both = game:has_item("shield" and "sword")
+  if has_both then
+  game:set_value("items_search_quest_started", true)
+  end
+ 
+-- Guy3
+function Guy3:on_interaction()
+  if has_sword and has_shield then
+    game:start_dialog("Guy3.found")
+  elseif has_sword and not has_shield then
+    game:start_dialog("Guy3.has_sword")
+  elseif has_shield and not has_sword then
+    game:start_dialog("Guy3.has_shield")
+  else
+    game:start_dialog("Guy3.search")
+  end
+end
+ 
+-- the other 2 dialogs would be
+-- "Guy3.has_shield"
+-- "Guy3.found"

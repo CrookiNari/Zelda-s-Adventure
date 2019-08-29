@@ -1,0 +1,65 @@
+CODE:
+
+;CUSTOM MUSIC, ASM BY CONN
+
+
+;Goal: load custom overworld music, without the reseting when changing screens. (Original Alttp always resets it to Overworld music).
+
+
+lorom
+
+org $008100
+jsr $89d5  ;pc: 00/09d5 (after your sword charge no move)
+
+org $0089d5
+jsl $23a200
+RTS
+
+org $23a200
+TAX ; transfer native value to X
+SBC #$0F ; check if theme is in range 00-0F (overworld themes) 
+BCC $04 ; continue if yes
+STZ $012C ; if no, set 012c to 00 and return to game 
+RTL 
+LDA $008c ; check overworld
+cmp #$00
+BNE $0b
+LDA $008a
+cmp #$00
+BNE $04
+STZ $012C ; if you are in dungeon/cave, set 012c to 00 and return to game 
+RTL 
+TXA ; regain native value X transfer to A
+; now a comparison starts of themes you want to have replaced, this is overworld 02, lost woods 05, kakariko 07, dark world 09, skull woods 0d. This is necessary to not replace title screen, introduction, minigame, character selection, rabbit, rain, which is not on the map!
+CMP #$02 ; if overworld theme is about to play jump to $A231 and replace, if not check if it is 05 and so forth. 
+BNE $03 
+JMP $A243
+CMP #$05 
+BNE $03 
+JMP $A243 
+CMP #$07 
+BNE $03 
+JMP $A243 
+CMP #$09 
+BNE $03 
+JMP $A243 
+CMP #$0D 
+BNE $03 
+JMP $A243 
+STZ $012C ; if it is another theme (introduction, title screen -> return to game)
+RTL 
+LDA $012C ; if theme is already loaded return to game (address is loaded twice)
+CMP $0131 
+BNE $04 
+STZ $012C 
+RTL 
+LDX $040A ; load screen number to X
+LDA $23A300,x ; select theme from table, in dependence of screen in X
+STA $012C ; play theme
+STA $2140 
+STA $0132 
+RTL 
+
+;The table at 11/a300 contains all 07 (kakariko). You simply need to replace these number by the number you like to have played.
+
+;The table beginning at 01/4343 needs to be an exact copy of the table 11/a300 to avoid a music reset everytime you switch screens.

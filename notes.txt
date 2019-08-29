@@ -1,0 +1,40 @@
+"Vision Henge/visionhenge5", "starting_destination"
+"01. Shrine of Earth/ca07", "shrine_earth_entrance"
+"Plain of Andor/ag20", "destination"
+"05. Shrine of Air/ea04", "destination"
+"02. Shrine of Illusion/da10", "destination"
+"Plain of Andor/aj20", "destination"
+
+264
+160
+
+http://forum.solarus-games.org/index.php/topic,53.msg213.html
+http://forum.solarus-games.org/index.php/topic,51.0.html
+http://forum.solarus-games.org/index.php/topic,1044.msg6050.html
+http://forum.solarus-games.org/index.php/topic,20.0.html
+http://forum.solarus-games.org/index.php/topic,994.0.html
+http://www.finalfantasykingdom.net/z3worldmap.php
+http://www.solarus-games.org/doc/latest/lua_api_game.html
+http://forum.solarus-games.org/index.php/topic,1111.0.html
+http://forum.solarus-games.org/index.php/topic,1139.msg6683.html
+https://www.youtube.com/playlist?list=PLzJ4jb-Y0ufxwkj7IlfURcvCxaDCSecJY
+https://github.com/CrookiNari/Zelda-s-Adventure
+https://gitlab.com/solarus-games/zelda-mercuris-chest/blob/dev/data/scripts/maps/cutscene.lua
+
+
+hero:start_treasure("heart")
+
+ self:start_movement()
+
+movement = sol.movement.create("target")
+
+AGAHNIM
+function
+  (last_lightnings_total = last_lightnings_total + 1
+  remaining_lightnings = last_lightnings_total)
+  sol.timer.start(enemy, 3000, shoot_lightning)
+end
+
+local projectile_prefix = enemy:get_name() .. "fireball_simple"
+
+If you put the solarus-run file in your directory, it'll run the game and that directory's data folder, no need to download the launcher.the solarus-run file is usually wherever your launcher and editor apps are.
