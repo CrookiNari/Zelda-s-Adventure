@@ -92,65 +92,11 @@ tile{
 
 tile{
   layer = 0,
-  x = 168,
-  y = 216,
-  width = 128,
-  height = 24,
-  pattern = "wall.2",
-}
-
-tile{
-  layer = 0,
-  x = 168,
-  y = 216,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.2",
-}
-
-tile{
-  layer = 0,
-  x = 144,
-  y = 216,
-  width = 8,
-  height = 16,
-  pattern = "door.2.support.1",
-}
-
-tile{
-  layer = 0,
   x = 152,
   y = 216,
-  width = 16,
-  height = 16,
-  pattern = "door.2",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 112,
-  width = 16,
-  height = 16,
-  pattern = "door.3",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 104,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.1",
-}
-
-tile{
-  layer = 0,
-  x = 8,
-  y = 128,
-  width = 16,
-  height = 8,
-  pattern = "door.3.support.2",
+  width = 144,
+  height = 24,
+  pattern = "wall.2",
 }
 
 tile{
@@ -183,24 +129,6 @@ tile{
 tile{
   layer = 0,
   x = 144,
-  y = 232,
-  width = 32,
-  height = 8,
-  pattern = "door_top.2",
-}
-
-tile{
-  layer = 0,
-  x = 0,
-  y = 104,
-  width = 8,
-  height = 32,
-  pattern = "door_top.3",
-}
-
-tile{
-  layer = 0,
-  x = 144,
   y = 0,
   width = 32,
   height = 8,
@@ -209,23 +137,12 @@ tile{
 
 teletransporter{
   layer = 0,
-  x = 8,
-  y = 112,
-  width = 16,
-  height = 16,
-  destination_map = "02. Shrine of Illusion/db08",
-  destination = "destination",
-  sound = "warp",
-}
-
-teletransporter{
-  layer = 0,
   x = 152,
   y = 8,
   width = 16,
   height = 16,
-  destination_map = "02. Shrine of Illusion/db07",
-  destination = "destination_2",
+  destination_map = "02. Shrine of Illusion/dc06",
+  destination = "destination",
   sound = "warp",
 }
 
@@ -233,25 +150,7 @@ destination{
   name = "destination",
   layer = 0,
   x = 160,
-  y = 213,
-  direction = 1,
-}
-
-teletransporter{
-  layer = 0,
-  x = 152,
-  y = 216,
-  width = 16,
-  height = 16,
-  destination_map = "02. Shrine of Illusion/db09",
-  destination = "destination",
-}
-
-destination{
-  name = "destination_2",
-  layer = 0,
-  x = 160,
   y = 37,
-  direction = 3,
+  direction = 1,
 }
 

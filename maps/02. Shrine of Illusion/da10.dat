@@ -10,6 +10,15 @@ properties{
 }
 
 tile{
+  layer = 0,
+  x = 144,
+  y = 240,
+  width = 32,
+  height = 32,
+  pattern = "floor_low.14",
+}
+
+tile{
   layer = 1,
   x = 0,
   y = 0,
@@ -178,5 +187,474 @@ tile{
   width = 96,
   height = 24,
   pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 48,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 0,
+  width = 32,
+  height = 24,
+  pattern = "wall_statue.1",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 0,
+  width = 32,
+  height = 24,
+  pattern = "wall_statue.1",
+}
+
+tile{
+  layer = 1,
+  x = 40,
+  y = 216,
+  width = 32,
+  height = 24,
+  pattern = "wall_statue.2",
+}
+
+tile{
+  layer = 1,
+  x = 248,
+  y = 216,
+  width = 32,
+  height = 24,
+  pattern = "wall_statue.2",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 24,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 24,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 280,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.bottom",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 48,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1b",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 64,
+  width = 8,
+  height = 16,
+  pattern = "wall_tunnel.1a",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 48,
+  width = 32,
+  height = 16,
+  pattern = "1",
+}
+
+tile{
+  layer = 1,
+  x = 152,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.1",
+}
+
+tile{
+  layer = 1,
+  x = 160,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "wall_tunnel.1.support.2",
+}
+
+tile{
+  layer = 1,
+  x = 168,
+  y = 56,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.1.support.4",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 56,
+  width = 8,
+  height = 24,
+  pattern = "wall_tunnel.1.support.3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 80,
+  width = 64,
+  height = 48,
+  pattern = "22",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 80,
+  width = 16,
+  height = 48,
+  pattern = "2",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 80,
+  width = 16,
+  height = 48,
+  pattern = "3",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 128,
+  width = 64,
+  height = 24,
+  pattern = "11",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "12",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "13",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "10",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "10",
+}
+
+tile{
+  layer = 1,
+  x = 112,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "16",
+}
+
+tile{
+  layer = 1,
+  x = 200,
+  y = 136,
+  width = 8,
+  height = 8,
+  pattern = "17",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "7",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 128,
+  width = 8,
+  height = 16,
+  pattern = "6",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "16",
+}
+
+tile{
+  layer = 1,
+  x = 192,
+  y = 144,
+  width = 8,
+  height = 8,
+  pattern = "17",
+}
+
+tile{
+  layer = 1,
+  x = 128,
+  y = 128,
+  width = 8,
+  height = 32,
+  pattern = "8",
+}
+
+tile{
+  layer = 1,
+  x = 184,
+  y = 128,
+  width = 8,
+  height = 32,
+  pattern = "9",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 0,
+  width = 32,
+  height = 24,
+  pattern = "wall_pipe.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 184,
+  width = 24,
+  height = 32,
+  pattern = "wall_statue.3",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 32,
+  width = 24,
+  height = 32,
+  pattern = "wall_statue.3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 32,
+  width = 24,
+  height = 32,
+  pattern = "wall_statue.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 184,
+  width = 24,
+  height = 32,
+  pattern = "wall_statue.4",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 96,
+  width = 24,
+  height = 32,
+  pattern = "wall_pipe.3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 96,
+  width = 24,
+  height = 32,
+  pattern = "wall_pipe.4",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 240,
+  width = 8,
+  height = 32,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 240,
+  width = 8,
+  height = 24,
+  pattern = "barrier.2",
+}
+
+tile{
+  layer = 1,
+  x = 144,
+  y = 264,
+  width = 32,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 176,
+  y = 264,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 64,
+  width = 16,
+  height = 16,
+  destination_map = "02. Shrine of Illusion/da09",
+  destination = "destination",
+  sound = "warp",
+}
+
+destination{
+  name = "destination",
+  layer = 1,
+  x = 160,
+  y = 221,
+  direction = 1,
+}
+
+teletransporter{
+  layer = 1,
+  x = 152,
+  y = 224,
+  width = 16,
+  height = 16,
+  destination_map = "02. Shrine of Illusion/da10",
+}
+
+tile{
+  layer = 2,
+  x = 24,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 8,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 2,
+  x = 24,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
+}
+
+tile{
+  layer = 2,
+  x = 280,
+  y = 184,
+  width = 16,
+  height = 16,
+  pattern = "torch_big.top",
 }
 

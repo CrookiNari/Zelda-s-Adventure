@@ -10,7 +10,7 @@ properties{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 0,
   y = 0,
   width = 24,
@@ -19,7 +19,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 296,
   y = 0,
   width = 24,
@@ -28,7 +28,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 24,
   y = 0,
   width = 272,
@@ -37,7 +37,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 296,
   y = 24,
   width = 24,
@@ -46,7 +46,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 0,
   y = 24,
   width = 24,
@@ -55,7 +55,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 24,
   y = 24,
   width = 272,
@@ -64,7 +64,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 0,
   y = 216,
   width = 24,
@@ -73,7 +73,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 296,
   y = 216,
   width = 24,
@@ -82,7 +82,7 @@ tile{
 }
 
 tile{
-  layer = 0,
+  layer = 1,
   x = 24,
   y = 216,
   width = 128,
@@ -91,101 +91,47 @@ tile{
 }
 
 tile{
-  layer = 0,
-  x = 152,
+  layer = 1,
+  x = 168,
   y = 216,
-  width = 144,
+  width = 128,
   height = 24,
   pattern = "wall.2",
 }
 
 tile{
-  layer = 0,
-  x = 144,
-  y = 8,
-  width = 8,
-  height = 16,
-  pattern = "door.1.support.1",
-}
-
-tile{
-  layer = 0,
+  layer = 1,
   x = 168,
-  y = 8,
+  y = 216,
   width = 8,
   height = 16,
-  pattern = "door.1.support.2",
+  pattern = "door.2.support.2",
 }
 
 tile{
-  layer = 0,
+  layer = 1,
+  x = 144,
+  y = 216,
+  width = 8,
+  height = 16,
+  pattern = "door.2.support.1",
+}
+
+tile{
+  layer = 1,
   x = 152,
-  y = 8,
+  y = 216,
   width = 16,
   height = 16,
-  pattern = "door.1",
+  pattern = "door.2",
 }
 
 tile{
-  layer = 0,
+  layer = 2,
   x = 144,
-  y = 0,
+  y = 232,
   width = 32,
   height = 8,
-  pattern = "door_top.1",
-}
-
-destination{
-  name = "landing",
-  layer = 0,
-  x = 264,
-  y = 77,
-  direction = 3,
-}
-
-teletransporter{
-  layer = 0,
-  x = 152,
-  y = 8,
-  width = 16,
-  height = 16,
-  destination_map = "02. Shrine of Illusion/db08",
-  destination = "destination",
-  sound = "warp",
-}
-
-enemy{
-  layer = 0,
-  x = 64,
-  y = 77,
-  direction = 3,
-  breed = "goriya_green",
-  treasure_name = "random",
-}
-
-enemy{
-  layer = 0,
-  x = 96,
-  y = 189,
-  direction = 3,
-  breed = "goriya_green",
-  treasure_name = "random",
-}
-
-enemy{
-  layer = 0,
-  x = 248,
-  y = 157,
-  direction = 3,
-  breed = "goriya_green",
-  treasure_name = "random",
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 160,
-  y = 37,
-  direction = 3,
+  pattern = "door_top.2",
 }
 
