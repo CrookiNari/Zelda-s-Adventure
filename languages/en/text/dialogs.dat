@@ -4,21 +4,21 @@ dialog{
   text = [[
 It's a crystal switch.
 Try to hit it with something...
-]]
+]],
 }
 
 dialog{
   id = "_shop.amount_full",
   text = [[
 You can't carry any more!
-]]
+]],
 }
 
 dialog{
   id = "_shop.not_enough_money",
   text = [[
 Sorry, you don't have enough Rupees!
-]]
+]],
 }
 
 dialog{
@@ -27,7 +27,7 @@ dialog{
 Price: $v Rupees.
         $? Buy
         $? Don't Buy
-]]
+]],
 }
 
 dialog{
@@ -35,7 +35,7 @@ dialog{
   text = [[
 You found the Big Key!
 It can open the door to the boss.
-]]
+]],
 }
 
 dialog{
@@ -43,7 +43,7 @@ dialog{
   text = [[
 You found the Boomerang!
 Throw it at enemies to stun them.
-]]
+]],
 }
 
 dialog{
@@ -51,7 +51,7 @@ dialog{
   text = [[
 You found the Compass!
 Now you can see where this dungeon's boss lies.
-]]
+]],
 }
 
 dialog{
@@ -59,34 +59,34 @@ dialog{
   text = [[
 You found the Map!
 Now you can see the layout of the dungeon.
-]]
+]],
 }
 
 dialog{
   id = "_treasure.shield.1",
   text = [[
-You found the Shield!
+You found the Wooden Shield!
 It's a bit small...
 You can defend yourself from enemy
 projectiles!
-]]
+]],
 }
 
 dialog{
   id = "_treasure.shield.2",
   text = [[
-You found the Fire Shield!
+You found the Royal Shield!
 You are now protected from fire
 attacks!
-]]
+]],
 }
 
 dialog{
   id = "_treasure.shield.3",
   text = [[
-You found the Mirror Shield!
+You found the Sacred Shield!
 You can now reflect lasers!
-]]
+]],
 }
 
 dialog{
@@ -95,7 +95,7 @@ dialog{
 You found the Knave's Sword!
 It's a bit small...
 Use it to vanquish your enemies!
-]]
+]],
 }
 
 dialog{
@@ -104,7 +104,7 @@ dialog{
 You found the Hylian Blade!
 This new sword is twice as
 powerful as your old one!
-]]
+]],
 }
 
 dialog{
@@ -113,7 +113,7 @@ dialog{
 You found the Hero's Sword!
 This new blade is twice as
 powerful as your old one!
-]]
+]],
 }
 
 dialog{
@@ -122,7 +122,17 @@ dialog{
 You found the Master Sword!
 The power of this ultimate sword is
 beyond anything you have ever seen!
-]]
+]],
+}
+
+dialog{
+  id = "bridge_sign",
+  text = [[
+This bridge is here for the sake of testing,
+and will not be present in the final product.
+Please take no notice of it.
+-The game director
+]],
 }
 
 dialog{
@@ -130,7 +140,7 @@ dialog{
   text = [[
 You will need something sharp to cut
 through these bushes.
-]]
+]],
 }
 
 dialog{
@@ -138,7 +148,7 @@ dialog{
   skip = "all",
   text = [[
 It's still too heavy for you!
-]]
+]],
 }
 
 dialog{
@@ -146,15 +156,7 @@ dialog{
   text = [[
 Darn it, this is way too heavy!
 You'll never manage with your bare hands!
-]]
-}
-
-dialog{
-  id = "findo",
-  text = [[
-Huhuhu... Moblins are so slow and stupid,
-they still try to eat soup with a fork!
-]]
+]],
 }
 
 dialog{
@@ -162,7 +164,7 @@ dialog{
   text = [[
 A fine purchase, young lady!
 I hope you will use it well.
-]]
+]],
 }
 
 dialog{
@@ -171,14 +173,14 @@ dialog{
 Hello there, fair lady. You seem wise, so won't
 you consider taking one of my valuable wares
 with you?
-]]
+]],
 }
 
 dialog{
   id = "found_piece_of_heart.first",
   text = [[
 You found a piece of Heart!
-]]
+]],
 }
 
 dialog{
@@ -186,28 +188,36 @@ dialog{
   text = [[
 You found a piece of Heart!
 Your Heart level increased!
-]]
+]],
 }
 
 dialog{
   id = "found_piece_of_heart.second",
   text = [[
 You found a piece of Heart!
-]]
+]],
 }
 
 dialog{
   id = "found_piece_of_heart.third",
   text = [[
 You found a piece of Heart!
-]]
+]],
+}
+
+dialog{
+  id = "great wimbich",
+  text = [[
+Meadow of Skotness
+North to Great Wimbich
+]],
 }
 
 dialog{
   id = "hungrylady.child",
   text = [[
 Wahhh... I'm hungry, Mama!
-]]
+]],
 }
 
 dialog{
@@ -219,7 +229,7 @@ Can you please spare a few Rupees for a meal?
 
 $?Yes
 $?No
-]]
+]],
 }
 
 dialog{
@@ -227,7 +237,7 @@ dialog{
   text = [[
 Ohhh... They said you were compassionate...
 I don't know what we'll do now...
-]]
+]],
 }
 
 dialog{
@@ -236,13 +246,13 @@ dialog{
 Oh thank you, Princess! We have only this,
 which is of no use to us.
 Please take it with you on your quest.
-]]
+]],
 }
 
 dialog{
   id = "intro_text",
   text = [[
-]]
+]],
 }
 
 dialog{
@@ -262,13 +272,13 @@ I found a champion of strength and courage in the
 wise and beautiful Princess Zelda.
 Go now, aided by the Triforce of Wisdom,
 and reclaim the signs and return peace to Tolemac!
-]]
+]],
 }
 
 dialog{
   id = "moblin_inn",
   text = [[
-]]
+]],
 }
 
 dialog{
@@ -279,7 +289,7 @@ Please sit a while.
 Some very interesting folks pass through here,
 so maybe you should talk to them.
 You might learn something useful.
-]]
+]],
 }
 
 dialog{
@@ -292,7 +302,7 @@ means, but I do know that greedy trolls like to
 make their lairs in dark caves far to the south.
 If you're going to go anywhere dark, you'll do
 well to get yourself a lantern.
-]]
+]],
 }
 
 dialog{
@@ -301,7 +311,7 @@ dialog{
 You seem like the patient type. That's a
 good trait to have. Don't surrender to the
 things that seem impossible.
-]]
+]],
 }
 
 dialog{
@@ -312,7 +322,61 @@ a lantern. You can't see anything stumbling
 around in the dark! There was a stall in the
 southern forest selling them, but I didn't think
 I needed one so passed it by.
-]]
+]],
+}
+
+dialog{
+  id = "npc.findo",
+  text = [[
+Hoohoohoo...Moblins are so slow and stupid,
+they'd try to eat their soup with a fork!
+
+
+They'd certainly get lost in the illusory place
+where false doors lead you back to the same
+room and be befuddled by the cartwheeling
+fellow Pasquinade! Hoohoohoo...
+]],
+}
+
+dialog{
+  id = "npc.ghost_farmer1",
+  text = [[
+Booooooo, we are ghosts! Huh, you're not scared?
+Then I'll give you some advice.
+
+
+You can use the flippers to cross water, but if
+you intend to reach the Shrine of Water,
+you'll need to find a better way. There are
+fearsome monsters that can outswim any human.
+]],
+}
+
+dialog{
+  id = "npc.ghost_farmer2",
+  text = [[
+I've been cultivating this farm for
+over 300 years...
+Don't you dare trample my land!
+]],
+}
+
+dialog{
+  id = "npc.plains_traveller",
+  text = [[
+I've walked back and forth alongside this river
+so many times I've lost count, trying to find
+a way across. Normally it's not this deep,
+but ever since things started going funny at
+the Shrine of Water, there's been a lot of rain
+and the source of the river has flooded this
+part of the plain. It's not even wide enough
+to be worth building a bridge or raft,
+so anybody who crossed over before the rains
+is now stuck here.
+I just want to go home, but I can't swim...
+]],
 }
 
 dialog{
@@ -321,7 +385,7 @@ dialog{
 Do you want to save the game?
  $?Yes
  $?No
-]]
+]],
 }
 
 dialog{
@@ -331,28 +395,48 @@ Oh, hello Princess! Didn't see you there!
 Are you having a nice day?
   $? Yes
   $? No
-]]
+]],
 }
 
 dialog{
   id = "sample_text2",
   text = [[
 That's good!
-]]
+]],
 }
 
 dialog{
   id = "sample_text3",
   text = [[
 Oh, pity.
-]]
+]],
+}
+
+dialog{
+  id = "shadow zelda",
+  text = [[
+I am the Shadow hiding from the light
+cast by the Triforce of Wisdom which you carry.
+Zelda...Prove you are worthy of your divine blessing,
+or I shall strike you down where you stand!
+]],
+}
+
+dialog{
+  id = "shurmak statue.earth",
+  text = [[
+Princess, it is I, Shurmak.
+This is the Shrine of Earth.
+Move quickly and think quickly and you shall
+not step wrong.
+]],
 }
 
 dialog{
   id = "sign.findo",
   text = [[
 East to Findo
-]]
+]],
 }
 
 dialog{
@@ -362,14 +446,14 @@ Forest of Ogbam
 Dark caves are dangerous. Keep your
 lantern full and don't trip on
 hidden objects.
-]]
+]],
 }
 
 dialog{
   id = "sign.moblin inn",
   text = [[
 North-east to Moblin Inn
-]]
+]],
 }
 
 dialog{
@@ -378,7 +462,7 @@ dialog{
 Plain of Andor
 Vegetation is sparse. Be sure to
 keep plenty of water with you.
-]]
+]],
 }
 
 dialog{
@@ -388,13 +472,13 @@ Welcome to the river source!
 Please take some fresh water
 with you.
 - River Lover's Society
-]]
+]],
 }
 
 dialog{
   id = "thirstylady",
   text = [[
-]]
+]],
 }
 
 dialog{
@@ -406,14 +490,14 @@ bottle to the source of the river and collect
 some water for me?
 $?Yes
 $?No
-]]
+]],
 }
 
 dialog{
   id = "thirstylady.2",
   text = [[
 Thank you! I'll be right here waiting.
-]]
+]],
 }
 
 dialog{
@@ -421,6 +505,14 @@ dialog{
   text = [[
 You won't do it? Please! I can't walk that far
 in my current state!
-]]
+]],
+}
+
+dialog{
+  id = "witch",
+  text = [[
+Heeheehee...let me give you a word of advice...
+you can't trust anybody out here!
+]],
 }
 
