@@ -1,0 +1,380 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_grayblue",
+  music = "dark_mountain",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "floor_low.6",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "carpet.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "carpet.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "carpet",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 48,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 160,
+  y = 56,
+  width = 8,
+  height = 8,
+  pattern = "carpet.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 48,
+  width = 32,
+  height = 8,
+  pattern = "carpet.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 64,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 56,
+  width = 32,
+  height = 8,
+  pattern = "carpet",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 112,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 120,
+  width = 8,
+  height = 8,
+  pattern = "carpet.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 112,
+  width = 32,
+  height = 8,
+  pattern = "carpet.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 128,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 128,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 120,
+  width = 32,
+  height = 8,
+  pattern = "carpet",
+  tileset = "light_world",
+}
+
+npc{
+  layer = 0,
+  x = 64,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/average_middle_aged_man",
+}
+
+block{
+  layer = 0,
+  x = 80,
+  y = 125,
+  sprite = "entities/chest",
+  pushable = false,
+  pullable = false,
+}
+
+npc{
+  layer = 0,
+  x = 136,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/broom_grandma",
+}
+
+block{
+  layer = 0,
+  x = 152,
+  y = 61,
+  sprite = "entities/chest",
+  pushable = false,
+  pullable = false,
+}
+
+npc{
+  layer = 0,
+  x = 208,
+  y = 125,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/merchant_green",
+}
+
+block{
+  layer = 0,
+  x = 224,
+  y = 125,
+  sprite = "entities/chest",
+  pushable = false,
+  pullable = false,
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 216,
+  width = 320,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 16,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 8,
+  width = 16,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.2",
+}
+

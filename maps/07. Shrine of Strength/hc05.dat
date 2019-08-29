@@ -1,0 +1,101 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_grayblue",
+  music = "dark_mountain",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "floor_low.6",
+}
+
+npc{
+  layer = 0,
+  x = 64,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/grandson",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 8,
+  width = 320,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 216,
+  width = 320,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 104,
+  y = 40,
+  width = 8,
+  height = 16,
+  pattern = "cauldron.4",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 40,
+  width = 8,
+  height = 16,
+  pattern = "cauldron.3",
+}
+
+tile{
+  layer = 1,
+  x = 88,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "cauldron.hole",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 56,
+  width = 32,
+  height = 8,
+  pattern = "cauldron.2",
+}
+
+tile{
+  layer = 1,
+  x = 80,
+  y = 32,
+  width = 32,
+  height = 8,
+  pattern = "cauldron.1",
+}
+

@@ -1,0 +1,568 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_grayblue",
+  music = "dark_mountain",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "floor_low.6",
+}
+
+npc{
+  layer = 0,
+  x = 112,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/ghostly_proprietor",
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 53,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 61,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 77,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 93,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 109,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 125,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 141,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 157,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 173,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 189,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 288,
+  y = 197,
+  direction = 3,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 205,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 189,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 173,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 157,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 141,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 125,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 109,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 93,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 77,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 61,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 240,
+  y = 53,
+  direction = 5,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 189,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 173,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 157,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 141,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 125,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 109,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 93,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 77,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 53,
+  direction = 1,
+}
+
+stream{
+  layer = 0,
+  x = 272,
+  y = 61,
+  direction = 2,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 61,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 77,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 93,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 109,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 125,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 141,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 157,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 173,
+  direction = 6,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 197,
+  direction = 7,
+}
+
+stream{
+  layer = 0,
+  x = 224,
+  y = 189,
+  direction = 6,
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 8,
+  width = 304,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 0,
+  width = 312,
+  height = 8,
+  pattern = "barrier.1",
+}
+
+tile{
+  layer = 1,
+  x = 0,
+  y = 216,
+  width = 16,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 232,
+  width = 24,
+  height = 16,
+  pattern = "wall.3",
+}
+
+tile{
+  layer = 1,
+  x = 8,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.3",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 8,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 312,
+  y = 0,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.4",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 192,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 136,
+  y = 216,
+  width = 160,
+  height = 24,
+  pattern = "wall.2",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 232,
+  width = 24,
+  height = 16,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 216,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner_reverse.4",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 208,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 32,
+  width = 8,
+  height = 8,
+  pattern = "barrier.border",
+}
+
+tile{
+  layer = 1,
+  x = 120,
+  y = 40,
+  width = 8,
+  height = 168,
+  pattern = "barrier.2",
+}
+
+switch{
+  layer = 1,
+  x = 280,
+  y = 32,
+  subtype = "arrow_target",
+  sprite = "entities/solid_switch",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 224,
+  y = 56,
+  subtype = "arrow_target",
+  sprite = "npc/octopus",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 280,
+  y = 64,
+  subtype = "arrow_target",
+  sprite = "entities/solid_switch",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 280,
+  y = 96,
+  subtype = "arrow_target",
+  sprite = "entities/solid_switch",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 280,
+  y = 128,
+  subtype = "arrow_target",
+  sprite = "entities/solid_switch",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 280,
+  y = 160,
+  subtype = "arrow_target",
+  sprite = "entities/solid_switch",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 224,
+  y = 88,
+  subtype = "arrow_target",
+  sprite = "npc/octopus",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 224,
+  y = 120,
+  subtype = "arrow_target",
+  sprite = "npc/octopus",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 224,
+  y = 152,
+  subtype = "arrow_target",
+  sprite = "npc/octopus",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+
+switch{
+  layer = 1,
+  x = 224,
+  y = 184,
+  subtype = "arrow_target",
+  sprite = "npc/octopus",
+  sound = "arrow_hit",
+  needs_block = false,
+  inactivate_when_leaving = true,
+}
+

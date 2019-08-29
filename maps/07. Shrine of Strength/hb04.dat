@@ -1,0 +1,164 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "dungeon_grayblue",
+  music = "dark_mountain",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "floor_low.6",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 64,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 72,
+  width = 8,
+  height = 8,
+  pattern = "carpet.4",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 64,
+  width = 32,
+  height = 8,
+  pattern = "carpet.1",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 80,
+  width = 8,
+  height = 8,
+  pattern = "carpet.corner.3",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 80,
+  width = 32,
+  height = 8,
+  pattern = "carpet.2",
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 72,
+  width = 32,
+  height = 8,
+  pattern = "carpet",
+  tileset = "light_world",
+}
+
+npc{
+  layer = 0,
+  x = 184,
+  y = 77,
+  direction = 3,
+  subtype = 1,
+  sprite = "npc/woman_blue",
+}
+
+block{
+  layer = 0,
+  x = 200,
+  y = 77,
+  sprite = "entities/vase",
+  pushable = false,
+  pullable = false,
+}
+
+tile{
+  layer = 1,
+  x = -8,
+  y = 0,
+  width = 304,
+  height = 24,
+  pattern = "wall.1",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 0,
+  width = 24,
+  height = 24,
+  pattern = "wall.corner.2",
+}
+
+tile{
+  layer = 1,
+  x = 296,
+  y = 24,
+  width = 24,
+  height = 224,
+  pattern = "wall.4",
+}
+
+tile{
+  layer = 1,
+  x = 264,
+  y = 24,
+  width = 32,
+  height = 32,
+  pattern = "statue_eye",
+}
+
