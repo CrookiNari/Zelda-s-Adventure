@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "npc/goron elder dargan.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 25, frame_height = 38, origin_x = 13, origin_y = 32 },
+    { x = 0, y = 0, frame_width = 25, frame_height = 38, origin_x = 13, origin_y = 32 },
+    { x = 0, y = 0, frame_width = 25, frame_height = 38, origin_x = 13, origin_y = 32 },
+    { x = 0, y = 0, frame_width = 25, frame_height = 38, origin_x = 13, origin_y = 32 },
+  },
+}

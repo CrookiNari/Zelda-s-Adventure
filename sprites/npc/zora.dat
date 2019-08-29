@@ -1,0 +1,24 @@
+animation{
+  name = "stopped",
+  src_image = "npc/zora.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 44, frame_width = 24, frame_height = 24, origin_x = 12, origin_y = 29 },
+    { x = 0, y = 66, frame_width = 22, frame_height = 22, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 23, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "npc/zora.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 44, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 66, frame_width = 22, frame_height = 22, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 22, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 2 },
+    { x = 0, y = 0, frame_width = 24, frame_height = 24, origin_x = 8, origin_y = 13, num_frames = 4 },
+  },
+}

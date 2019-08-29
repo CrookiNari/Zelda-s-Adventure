@@ -1,0 +1,10 @@
+animation{
+  name = "stopped",
+  src_image = "npc/ghost farmers.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 28, frame_height = 32, origin_x = 14, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 28, frame_height = 32, origin_x = 14, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 28, frame_height = 32, origin_x = 14, origin_y = 29 },
+    { x = 0, y = 0, frame_width = 28, frame_height = 32, origin_x = 14, origin_y = 29 },
+  },
+}

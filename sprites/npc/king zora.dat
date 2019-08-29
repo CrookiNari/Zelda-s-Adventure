@@ -1,0 +1,12 @@
+animation{
+  name = "stopped",
+  src_image = "npc/king zora danayfore xi.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 38, frame_height = 42, origin_x = 19, origin_y = 38 },
+    { x = 0, y = 0, frame_width = 38, frame_height = 42, origin_x = 19, origin_y = 38 },
+    { x = 0, y = 0, frame_width = 38, frame_height = 42, origin_x = 19, origin_y = 38 },
+    { x = 0, y = 0, frame_width = 38, frame_height = 42, origin_x = 19, origin_y = 38 },
+  },
+}
