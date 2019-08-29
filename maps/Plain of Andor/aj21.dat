@@ -1296,6 +1296,79 @@ tile{
   pattern = "sand.under_bush",
 }
 
+tile{
+  layer = 0,
+  x = 64,
+  y = 208,
+  enabled_at_start = false,
+  width = 48,
+  height = 32,
+  pattern = "bridge_a.slab.4",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 216,
+  width = 16,
+  height = 24,
+  pattern = "bridge_a",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 216,
+  width = 16,
+  height = 24,
+  pattern = "bridge_a",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 200,
+  width = 48,
+  height = 8,
+  pattern = "castle.floor_stones",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.1",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.1b",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.1",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.1b",
+}
+
 teletransporter{
   layer = 0,
   x = -16,
@@ -1311,7 +1384,7 @@ teletransporter{
   layer = 0,
   x = 0,
   y = -16,
-  width = 320,
+  width = 272,
   height = 16,
   transition = "scrolling",
   destination_map = "Plain of Andor/aj20",

@@ -22,3 +22,7 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+-- Stuff to finish:
+-- add shop item to innkeeper
+

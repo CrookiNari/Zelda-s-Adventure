@@ -210,7 +210,7 @@ destination{
   layer = 0,
   x = 160,
   y = 213,
-  direction = 3,
+  direction = 1,
 }
 
 teletransporter{

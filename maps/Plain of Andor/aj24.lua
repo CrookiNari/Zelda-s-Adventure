@@ -34,3 +34,6 @@ function map:on_opening_transition_finished()
 end
 
 end
+
+-- Stuff to finish:
+-- add thirsty lady quest

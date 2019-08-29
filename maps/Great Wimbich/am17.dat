@@ -1,0 +1,219 @@
+properties{
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  min_layer = 0,
+  max_layer = 2,
+  tileset = "light_world",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 0,
+  width = 320,
+  height = 240,
+  pattern = "grass.soil",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 208,
+  width = 288,
+  height = 8,
+  pattern = "dirt.cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 216,
+  width = 272,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 224,
+  width = 272,
+  height = 8,
+  pattern = "cliff.2",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 232,
+  width = 272,
+  height = 8,
+  pattern = "cliff.top.2",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 0,
+  width = 16,
+  height = 208,
+  pattern = "cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 312,
+  y = 0,
+  width = 8,
+  height = 240,
+  pattern = "cliff.top.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 184,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 0,
+  y = 200,
+  width = 264,
+  height = 8,
+  pattern = "grass.soil.2",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.4b",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 200,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.3b",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "grass.cliff.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "cliff.4",
+}
+
+tile{
+  layer = 0,
+  x = 296,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner_reverse.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "cliff.corner_reverse.diag.1",
+}
+
+tile{
+  layer = 0,
+  x = 272,
+  y = 216,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 264,
+  y = 224,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 280,
+  y = 208,
+  width = 16,
+  height = 16,
+  pattern = "cliff.top.border.diag.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 0,
+  width = 8,
+  height = 176,
+  pattern = "grass.soil.4",
+}
+
+tile{
+  layer = 0,
+  x = 288,
+  y = 176,
+  width = 8,
+  height = 8,
+  pattern = "grass.soil.diag.2b",
+}
+
+teletransporter{
+  layer = 0,
+  x = -16,
+  y = 0,
+  width = 16,
+  height = 208,
+  transition = "scrolling",
+  destination_map = "Great Wimbich/al17",
+  destination = "_side",
+}
+

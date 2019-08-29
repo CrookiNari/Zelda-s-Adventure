@@ -487,11 +487,3 @@ npc{
   sprite = "npc/traveller_2",
 }
 
-destination{
-  name = "destination",
-  layer = 0,
-  x = 104,
-  y = 205,
-  direction = 1,
-}
-

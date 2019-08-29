@@ -317,24 +317,6 @@ tile{
 
 tile{
   layer = 0,
-  x = 64,
-  y = 0,
-  width = 16,
-  height = 8,
-  pattern = "water.wave_big",
-}
-
-tile{
-  layer = 0,
-  x = 128,
-  y = 0,
-  width = 16,
-  height = 8,
-  pattern = "water.wave_big",
-}
-
-tile{
-  layer = 0,
   x = 200,
   y = 0,
   width = 16,
@@ -380,7 +362,7 @@ tile{
 
 tile{
   layer = 0,
-  x = 96,
+  x = 80,
   y = 0,
   width = 8,
   height = 8,
@@ -669,7 +651,7 @@ tile{
 tile{
   layer = 0,
   x = 120,
-  y = 56,
+  y = 72,
   width = 16,
   height = 16,
   pattern = "sand.under_stone",
@@ -682,6 +664,88 @@ tile{
   width = 16,
   height = 16,
   pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = -8,
+  enabled_at_start = false,
+  width = 48,
+  height = 48,
+  pattern = "bridge_a.slab.4",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 0,
+  width = 16,
+  height = 24,
+  pattern = "bridge_a",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "bridge_a.2b",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.2",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 0,
+  width = 16,
+  height = 24,
+  pattern = "bridge_a",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "bridge_a.2b",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "bridge_a.2",
+}
+
+tile{
+  layer = 0,
+  x = 64,
+  y = 32,
+  width = 48,
+  height = 8,
+  pattern = "castle.floor_stones",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_sign",
 }
 
 teletransporter{
@@ -807,14 +871,6 @@ teletransporter{
   destination = "_side",
 }
 
-destination{
-  name = "starting_destination",
-  layer = 0,
-  x = 48,
-  y = 141,
-  direction = 3,
-}
-
 teletransporter{
   layer = 0,
   x = 184,
@@ -865,7 +921,7 @@ destructible{
 destructible{
   layer = 0,
   x = 128,
-  y = 69,
+  y = 85,
   treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
@@ -878,6 +934,16 @@ destructible{
   treasure_name = "random",
   sprite = "entities/stone_white",
   destruction_sound = "stone",
+}
+
+npc{
+  layer = 0,
+  x = 120,
+  y = 61,
+  direction = 3,
+  subtype = 1,
+  sprite = "entities/sign",
+  behavior = "dialog#bridge_sign",
 }
 
 tile{

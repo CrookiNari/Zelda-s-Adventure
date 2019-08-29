@@ -1,4 +1,4 @@
--- Lua script of map ad24.
+-- Lua script of map Great Wimbich/ak20.
 -- This script is executed every time the hero enters this map.
 
 -- Feel free to modify the code below.
@@ -22,6 +22,3 @@ end
 function map:on_opening_transition_finished()
 
 end
-
--- Stuff to finish:
--- complete chest spawning script
