@@ -396,6 +396,231 @@ tile{
   pattern = "tree.under",
 }
 
+tile{
+  layer = 0,
+  x = 8,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 56,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 16,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 192,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 88,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 168,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 168,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 32,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 144,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 48,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 48,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 32,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 136,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 104,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 200,
+  y = 64,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
 npc{
   layer = 0,
   x = 216,
@@ -403,6 +628,7 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/witch",
+  behavior = "dialog#witch",
 }
 
 teletransporter{
@@ -425,6 +651,66 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Forest of Ogbam/ah28",
   destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 61,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 208,
+  y = 77,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 88,
+  y = 149,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 144,
+  y = 165,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 45,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 240,
+  y = 117,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
 }
 
 tile{

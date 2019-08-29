@@ -378,6 +378,276 @@ tile{
   pattern = "tree.under",
 }
 
+tile{
+  layer = 0,
+  x = 8,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 24,
+  y = 56,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 112,
+  y = 144,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 72,
+  y = 120,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 128,
+  y = 80,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 120,
+  y = 24,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 16,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 232,
+  y = 64,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 48,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 40,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 104,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 112,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 176,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 208,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 88,
+  y = 224,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 184,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 136,
+  y = 160,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 208,
+  y = 216,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 152,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 184,
+  y = 136,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 72,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 8,
+  y = 200,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 216,
+  width = 16,
+  height = 8,
+  pattern = "grass.weed",
+}
+
+tile{
+  layer = 0,
+  x = 224,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 96,
+  y = 192,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 176,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 104,
+  y = 112,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 152,
+  y = 72,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
+tile{
+  layer = 0,
+  x = 216,
+  y = 40,
+  width = 16,
+  height = 16,
+  pattern = "grass.under_bush",
+}
+
 teletransporter{
   layer = 0,
   x = 0,
@@ -409,6 +679,66 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Forest of Ogbam/ah28",
   destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 224,
+  y = 53,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 160,
+  y = 85,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 112,
+  y = 125,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 184,
+  y = 165,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 205,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
+}
+
+destructible{
+  layer = 0,
+  x = 232,
+  y = 213,
+  treasure_name = "random",
+  sprite = "entities/bush_green",
+  destruction_sound = "bush",
+  can_be_cut = true,
 }
 
 tile{
@@ -913,5 +1243,32 @@ tile{
   width = 48,
   height = 40,
   pattern = "tree.green.1",
+}
+
+enemy{
+  layer = 1,
+  x = 280,
+  y = 125,
+  direction = 2,
+  breed = "moby",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 1,
+  x = 280,
+  y = 37,
+  direction = 2,
+  breed = "moby",
+  treasure_name = "random",
+}
+
+enemy{
+  layer = 1,
+  x = 280,
+  y = 221,
+  direction = 2,
+  breed = "moby",
+  treasure_name = "random",
 }
 

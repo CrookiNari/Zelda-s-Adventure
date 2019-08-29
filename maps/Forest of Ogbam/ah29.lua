@@ -22,3 +22,6 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+-- Stuff to finish:
+-- make witch summon monsters first time talked to, then become a green potion shop after
