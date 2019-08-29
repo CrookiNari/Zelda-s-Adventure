@@ -1,0 +1,57 @@
+animation{
+  name = "stopped",
+  src_image = "enemies/pasquinade.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 46, frame_height = 40, origin_x = 23, origin_y = 32 },
+    { x = 89, y = 0, frame_width = 46, frame_height = 40, origin_x = 23, origin_y = 32 },
+    { x = 134, y = 0, frame_width = 46, frame_height = 40, origin_x = 23, origin_y = 32 },
+    { x = 45, y = 0, frame_width = 46, frame_height = 40, origin_x = 23, origin_y = 32 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/pasquinade.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 111, y = 134, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+    { x = 111, y = 134, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+    { x = 111, y = 134, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+    { x = 111, y = 134, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+  },
+}
+animation{
+  name = "summon magic 1",
+  src_image = "enemies/pasquinade.png",
+  directions = {
+    { x = 0, y = 87, frame_width = 28, frame_height = 47, origin_x = 14, origin_y = 42, num_frames = 2 },
+    { x = 0, y = 40, frame_width = 28, frame_height = 47, origin_x = 14, origin_y = 42, num_frames = 2 },
+    { x = 0, y = 40, frame_width = 28, frame_height = 47, origin_x = 14, origin_y = 42, num_frames = 2 },
+    { x = 0, y = 87, frame_width = 28, frame_height = 47, origin_x = 14, origin_y = 42, num_frames = 2 },
+  },
+}
+animation{
+  name = "summon magic 2",
+  src_image = "enemies/pasquinade.png",
+  frame_delay = 600,
+  directions = {
+    { x = 56, y = 40, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+    { x = 56, y = 40, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+    { x = 56, y = 88, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+    { x = 56, y = 88, frame_width = 28, frame_height = 48, origin_x = 14, origin_y = 40, num_frames = 3 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "enemies/pasquinade.png",
+  frame_delay = 200,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 162, frame_width = 26, frame_height = 25, origin_x = 13, origin_y = 20, num_frames = 4 },
+    { x = 0, y = 135, frame_width = 26, frame_height = 25, origin_x = 13, origin_y = 20, num_frames = 4 },
+    { x = 0, y = 188, frame_width = 26, frame_height = 25, origin_x = 13, origin_y = 20, num_frames = 4 },
+    { x = 0, y = 214, frame_width = 26, frame_height = 25, origin_x = 13, origin_y = 20, num_frames = 4 },
+  },
+}

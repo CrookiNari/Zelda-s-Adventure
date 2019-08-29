@@ -1,0 +1,58 @@
+animation{
+  name = "walking",
+  src_image = "enemies/agwanda.png",
+  frame_delay = 150,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 86, frame_height = 78, origin_x = 43, origin_y = 70, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 86, frame_height = 78, origin_x = 43, origin_y = 70, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 86, frame_height = 78, origin_x = 43, origin_y = 70, num_frames = 4 },
+    { x = 0, y = 0, frame_width = 86, frame_height = 78, origin_x = 43, origin_y = 70 },
+  },
+}
+animation{
+  name = "hurt",
+  src_image = "enemies/agwanda.png",
+  frame_delay = 50,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 228, frame_width = 86, frame_height = 84, origin_x = 43, origin_y = 80, num_frames = 3 },
+    { x = 0, y = 228, frame_width = 86, frame_height = 84, origin_x = 43, origin_y = 80, num_frames = 3 },
+    { x = 0, y = 228, frame_width = 86, frame_height = 84, origin_x = 8, origin_y = 13, num_frames = 3 },
+    { x = 0, y = 228, frame_width = 86, frame_height = 84, origin_x = 43, origin_y = 80, num_frames = 3 },
+  },
+}
+animation{
+  name = "magic summon",
+  src_image = "enemies/agwanda.png",
+  directions = {
+    { x = 264, y = 105, frame_width = 90, frame_height = 78, origin_x = 45, origin_y = 70 },
+    { x = 264, y = 105, frame_width = 90, frame_height = 78, origin_x = 45, origin_y = 70 },
+    { x = 264, y = 105, frame_width = 90, frame_height = 78, origin_x = 45, origin_y = 70 },
+    { x = 264, y = 105, frame_width = 90, frame_height = 78, origin_x = 45, origin_y = 70 },
+  },
+}
+animation{
+  name = "stopped",
+  src_image = "enemies/agwanda.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 0, frame_width = 87, frame_height = 78, origin_x = 43, origin_y = 70 },
+    { x = 0, y = 0, frame_width = 87, frame_height = 78, origin_x = 43, origin_y = 70 },
+    { x = 0, y = 0, frame_width = 87, frame_height = 78, origin_x = 43, origin_y = 70 },
+    { x = 0, y = 0, frame_width = 87, frame_height = 78, origin_x = 43, origin_y = 70 },
+  },
+}
+animation{
+  name = "swipe",
+  src_image = "enemies/agwanda.png",
+  frame_delay = 300,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 0, y = 152, frame_width = 90, frame_height = 78, origin_x = 47, origin_y = 70, num_frames = 3 },
+    { x = 0, y = 77, frame_width = 88, frame_height = 78, origin_x = 43, origin_y = 70, num_frames = 3 },
+    { x = 0, y = 77, frame_width = 88, frame_height = 78, origin_x = 43, origin_y = 70, num_frames = 3 },
+    { x = 0, y = 152, frame_width = 90, frame_height = 78, origin_x = 47, origin_y = 70, num_frames = 3 },
+  },
+}
