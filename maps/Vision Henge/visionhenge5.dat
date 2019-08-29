@@ -728,16 +728,6 @@ destination{
   direction = 3,
 }
 
-destructible{
-  layer = 0,
-  x = 32,
-  y = 181,
-  treasure_name = "random",
-  sprite = "entities/bush_green",
-  destruction_sound = "bush",
-  can_be_cut = true,
-}
-
 npc{
   name = "lady",
   layer = 0,
@@ -746,27 +736,6 @@ npc{
   direction = 3,
   subtype = 1,
   sprite = "npc/lady_red",
-}
-
-teletransporter{
-  layer = 0,
-  x = 240,
-  y = 208,
-  width = 16,
-  height = 16,
-  destination_map = "Vision Henge/visionhenge5",
-  destination = "destination",
-  sprite = "entities/teletransporter",
-  sound = "warp",
-}
-
-destination{
-  name = "destination",
-  layer = 0,
-  x = 128,
-  y = 221,
-  direction = 3,
-  sprite = "entities/destination",
 }
 
 teletransporter{

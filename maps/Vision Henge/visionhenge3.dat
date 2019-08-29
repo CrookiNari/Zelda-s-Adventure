@@ -162,6 +162,51 @@ tile{
   pattern = "dirt.tree.roots.1",
 }
 
+tile{
+  layer = 0,
+  x = 96,
+  y = 200,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 240,
+  y = 168,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 144,
+  y = 152,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 40,
+  y = 128,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
+tile{
+  layer = 0,
+  x = 80,
+  y = 56,
+  width = 16,
+  height = 16,
+  pattern = "sand.under_stone",
+}
+
 teletransporter{
   layer = 0,
   x = 0,
@@ -204,6 +249,51 @@ teletransporter{
   transition = "scrolling",
   destination_map = "Plain of Andor/ai22",
   destination = "_side",
+}
+
+destructible{
+  layer = 0,
+  x = 88,
+  y = 69,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 152,
+  y = 165,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 248,
+  y = 181,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 48,
+  y = 141,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
+}
+
+destructible{
+  layer = 0,
+  x = 104,
+  y = 213,
+  treasure_name = "random",
+  sprite = "entities/stone_white",
+  destruction_sound = "stone",
 }
 
 tile{

@@ -32,3 +32,6 @@ end
 function map:on_opening_transition_finished()
 
 end
+
+-- Stuff to finish:
+-- have it so Vision Henge can't be exited until both the sword and shield are found
