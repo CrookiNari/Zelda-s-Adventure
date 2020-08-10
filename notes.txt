@@ -5,6 +5,8 @@
 "02. Shrine of Illusion/da10", "destination"
 "Plain of Andor/aj20", "destination"
 
+:)
+
 264
 160
 
